@@ -1,0 +1,27 @@
+## Interface: 100000
+
+## Title: AdiBags Dragonflight
+## Notes: AdiBags filter for common Dragonflight items.
+## Author: Avyiel
+## Version: @project-version@
+
+## DefaultState: Enabled
+## Dependencies: AdiBags
+#@alpha@
+## OptionalDeps: BugSack, BugGrabber
+#@end-alpha@
+
+## X-Date: @project-date-iso@
+## X-Category: Bags & Inventory
+## X-License: MIT
+
+## X-Curse-Project-ID: 695224
+## X-Wago-ID: RqGZWoNd
+
+Database.lua
+Localization.lua
+Main.lua
+
+#@debug@
+## Version: DEV
+#@end-debug@

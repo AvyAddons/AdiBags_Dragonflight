@@ -1,0 +1,18 @@
+package-as: AdiBags_Dragonflight
+enable-nolib-creation: no
+
+move-folders:
+    AdiBags_Dragonflight/AdiBags_Dragonflight: AdiBags_Dragonflight
+
+manual-changelog:
+    filename: CHANGELOG.md
+    markup-type: markdown
+
+license-output: LICENSE.txt
+
+ignore:
+    - CHANGELOG.md
+    - README.md
+    - LICENSE
+    - .editorconfig
+    - .github
