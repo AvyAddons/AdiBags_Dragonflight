@@ -101,13 +101,13 @@ function filter:Filter(slotData)
 end
 
 function filter:StartCache()
-	wipe(CacheIds)
+	local ids = {}
 
 	if self.db.profile.move_primal_storms then
-		enableIds(CacheIds, Database.primal_storms)
+		enableIds(ids, Database.primal_storms)
 	end
 
-	return CacheIds
+	return ids
 end
 
 -- Filter Options Panel
