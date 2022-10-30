@@ -40,10 +40,6 @@ local ipairs = ipairs
 -- Callbacks
 -----------------------------------------------------------
 local function enableIds(dict, id_list)
-	--@debug@
-	assert(id_list["items"], "Items list not found")
-	assert(id_list["category"], "Category name not found")
-	--@debug@
 	for _, v in ipairs(id_list.items) do
 		dict[v] = L[id_list.category]
 	end
