@@ -1,4 +1,4 @@
-# AdiBags - Dragonflight
+# AdiBags Dragonflight
 > AdiBags filter for common Dragonflight items.
 
 **If you've noticed a missing, miscategorized, or unbelonging item, please leave a comment!**
