@@ -4,6 +4,17 @@ All notable changes to this project will be documented in this file. Be aware th
 The format is based on [Keep a Changelog](http://keepachangelog.com/) 
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [Unreleased]
+### Fixed
+- Cache is now faster on first load, and doesn't rebuild as often
+
+### Changed
+- Updated in-game description of this filter
+- Updated default priority to be higher than equipment sets' default
+
+### Removed
+- Lots of dead code related to standalone addon usage (we're a plugin for AdiBags)
+
 ## [1.0.1] 2022-10-30
 ### Fixed
 - Categories can be selected without Lua errors.

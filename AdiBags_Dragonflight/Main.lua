@@ -25,18 +25,13 @@
 
 --]]
 -- Retrive addon folder name, and our local, private namespace.
-local addonName, addon = ...
+local _, addon = ...
 local L = addon.L
 local DB = addon.db
 
 -- Lua API
 -----------------------------------------------------------
-local _G = _G
 local ipairs = ipairs
-
--- WoW API
------------------------------------------------------------
--- Upvalue any WoW functions used here.
 
 -- Callbacks
 -----------------------------------------------------------
@@ -48,7 +43,7 @@ end
 
 -- Private Addon APIs and Tables
 -----------------------------------------------------------
-local CacheIds
+local Cache
 
 -- AdiBags namespace
 -----------------------------------------------------------
@@ -68,11 +63,13 @@ function filter:OnInitialize()
 			move_primal_storms = true,
 		},
 	})
+	-- Populate our cache now that settings have loaded
+	Cache = self:BuildCache()
 end
 
 function filter:Update()
-	-- Reset filtered IDs
-	CacheIds = nil
+	-- Update filtered IDs
+	Cache = self:BuildCache()
 	-- Notify myself that the filtering options have changed
 	self:SendMessage("AdiBags_FiltersChanged")
 end
@@ -89,18 +86,13 @@ end
 -----------------------------------------------------------
 function filter:Filter(slotData)
 	local itemId = slotData.itemId
-	CacheIds = CacheIds or self:StartCache()
 
-	if (itemId and CacheIds[itemId]) then
-		return CacheIds[itemId]
+	if (itemId and Cache[itemId]) then
+		return Cache[itemId], L["Dragonflight"]
 	end
-
-	-- TODO: some addons have a tooltip here, for whatever reason
-	-- even if they're tracking by ID and not by tt scanning. 
-	-- figure out why
 end
 
-function filter:StartCache()
+function filter:BuildCache()
 	local ids = {}
 
 	if self.db.profile.move_primal_storms then
