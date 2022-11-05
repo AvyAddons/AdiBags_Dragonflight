@@ -70,7 +70,7 @@ end)({
     --   will use the key (to the left) as the value instead!
     ["enUS"] = {
         ["Dragonflight"] = true, -- uiName
-        ["AdiBags filter for common Dragonflight items."] = true, -- uiDesc
+        ["Put common Dragoflight items in their own categories."] = true, -- uiDesc
 
         ["Move Primal Storms"] = true,
         ["Move Primal Storms items into their own category"] = true,

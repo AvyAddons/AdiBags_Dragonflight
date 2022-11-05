@@ -58,7 +58,7 @@ local AdiBags = LibStub("AceAddon-3.0"):GetAddon("AdiBags")
 -----------------------------------------------------------
 local filter = AdiBags:RegisterFilter("Dragonflight", 90, "ABEvent-1.0")
 filter.uiName = L["Dragonflight"]
-filter.uiDesc = L["AdiBags filter for common Dragonflight items."]
+filter.uiDesc = L["Put common Dragoflight items in their own categories."]
 
 function filter:OnInitialize()
 	-- Register the settings namespace
