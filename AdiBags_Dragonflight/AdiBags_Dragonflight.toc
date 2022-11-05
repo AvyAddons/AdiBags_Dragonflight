@@ -1,6 +1,6 @@
 ## Interface: 100000
 
-## Title: AdiBags Dragonflight
+## Title: AdiBags - Dragonflight
 ## Notes: AdiBags filter for common Dragonflight items.
 ## Author: Avyiel
 ## Version: @project-version@
