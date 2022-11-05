@@ -25,8 +25,8 @@
 
 --]]
 -- Retrive addon folder name, and our local, private namespace.
-local Addon, Private = ...
-local L = Private.L
+local addonName, addon = ...
+local L = addon.L
 
 -- Lua API
 -----------------------------------------------------------
@@ -48,7 +48,7 @@ end
 -- Constants
 -----------------------------------------------------------
 local CacheIds
-local Database = Private.Database
+local Database = addon.db
 
 -- AdiBags namespace
 -----------------------------------------------------------
@@ -116,8 +116,8 @@ function filter:GetOptions()
 	return {
 		-- Setup for the options panel
 		move_primal_storms = {
-			name = L[Private.Database.primal_storms.name],
-			desc = L[Private.Database.primal_storms.desc],
+			name = L[Database.primal_storms.name],
+			desc = L[Database.primal_storms.desc],
 			type = "toggle",
 			order = 0,
 		},

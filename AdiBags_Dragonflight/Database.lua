@@ -24,7 +24,7 @@
 
 --]]
 -- Retrive addon folder name, and our local, private namespace.
-local _, Private = ...
+local _, addon = ...
 
 --[[
 {
@@ -38,7 +38,7 @@ local _, Private = ...
 
 -- Database
 -----------------------------------------------------------
-Private.Database = {
+addon.db = {
     primal_storms = {
         name = "Move Primal Storms",
         desc = "Move Primal Storms items into their own category",
