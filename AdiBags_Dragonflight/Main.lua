@@ -27,6 +27,7 @@
 -- Retrive addon folder name, and our local, private namespace.
 local addonName, addon = ...
 local L = addon.L
+local DB = addon.db
 
 -- Lua API
 -----------------------------------------------------------
@@ -45,10 +46,9 @@ local function enableIds(dict, id_list)
 	end
 end
 
--- Constants
+-- Private Addon APIs and Tables
 -----------------------------------------------------------
 local CacheIds
-local Database = addon.db
 
 -- AdiBags namespace
 -----------------------------------------------------------
@@ -104,7 +104,7 @@ function filter:StartCache()
 	local ids = {}
 
 	if self.db.profile.move_primal_storms then
-		enableIds(ids, Database.primal_storms)
+		enableIds(ids, DB.primal_storms)
 	end
 
 	return ids
@@ -116,10 +116,10 @@ function filter:GetOptions()
 	return {
 		-- Setup for the options panel
 		move_primal_storms = {
-			name = L[Database.primal_storms.name],
-			desc = L[Database.primal_storms.desc],
+			name = L[DB.primal_storms.name],
+			desc = L[DB.primal_storms.desc],
 			type = "toggle",
-			order = 0,
+			order = 10,
 		},
 	}, AdiBags:GetOptionHandler(self, true, function() return self:Update() end)
 end
