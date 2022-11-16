@@ -4,13 +4,14 @@ All notable changes to this project will be documented in this file. Be aware th
 The format is based on [Keep a Changelog](http://keepachangelog.com/) 
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
-## [Unreleased]
+## [1.1.0] 2022-11-16
 ### Fixed
 - Cache is now faster on first load, and doesn't rebuild as often
 
 ### Changed
 - Updated in-game description of this filter
 - Updated default priority to be higher than equipment sets' default
+- Bump TOC to 100002
 
 ### Removed
 - Lots of dead code related to standalone addon usage (we're a plugin for AdiBags)
