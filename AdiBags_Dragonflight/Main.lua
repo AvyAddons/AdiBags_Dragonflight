@@ -61,6 +61,12 @@ function filter:OnInitialize()
 		profile = {
 			-- Add your settings here
 			move_primal_storms = true,
+			move_profession_knowledge = true,
+			move_lizis_reins = true,
+			move_reputation = true,
+			move_treasure_sack = true,
+			move_darkmoon_cards = true,
+			move_fortune_card = true,
 		},
 	})
 	-- Populate our cache now that settings have loaded
@@ -98,6 +104,24 @@ function filter:BuildCache()
 	if self.db.profile.move_primal_storms then
 		enableIds(ids, DB.primal_storms)
 	end
+	if self.db.profile.move_profession_knowledge then
+		enableIds(ids, DB.profession_knowledge)
+	end
+	if self.db.profile.move_lizis_reins then
+		enableIds(ids, DB.lizis_reins)
+	end
+	if self.db.profile.move_reputation then
+		enableIds(ids, DB.reputation)
+	end
+	if self.db.profile.move_treasure_sack then
+		enableIds(ids, DB.treasure_sack)
+	end
+	if self.db.profile.move_darkmoon_cards then
+		enableIds(ids, DB.darkmoon_cards)
+	end
+	if self.db.profile.move_fortune_card then
+		enableIds(ids, DB.fortune_card)
+	end
 
 	return ids
 end
@@ -111,7 +135,43 @@ function filter:GetOptions()
 			name = L[DB.primal_storms.name],
 			desc = L[DB.primal_storms.desc],
 			type = "toggle",
-			order = 10,
+			order = 999,
+		},
+		move_profession_knowledge = {
+			name = L[DB.profession_knowledge.name],
+			desc = L[DB.profession_knowledge.desc],
+			type = "toggle",
+			order = 12,
+		},
+		move_lizis_reins = {
+			name = L[DB.lizis_reins.name],
+			desc = L[DB.lizis_reins.desc],
+			type = "toggle",
+			order = 14,
+		},
+		move_reputation = {
+			name = L[DB.reputation.name],
+			desc = L[DB.reputation.desc],
+			type = "toggle",
+			order = 16,
+		},
+		move_treasure_sack = {
+			name = L[DB.treasure_sack.name],
+			desc = L[DB.treasure_sack.desc],
+			type = "toggle",
+			order = 18,
+		},
+		move_darkmoon_cards = {
+			name = L[DB.darkmoon_cards.name],
+			desc = L[DB.darkmoon_cards.desc],
+			type = "toggle",
+			order = 20,
+		},
+		move_fortune_card = {
+			name = L[DB.fortune_card.name],
+			desc = L[DB.fortune_card.desc],
+			type = "toggle",
+			order = 22,
 		},
 	}, AdiBags:GetOptionHandler(self, true, function() return self:Update() end)
 end
