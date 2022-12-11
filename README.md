@@ -5,9 +5,19 @@
 
 Currently, this addon supports:
 
-* Primal Storms (Pre-Patch Event)
+- Reputation & Renown
+- Profession Knowledge
+- Treasure Sacks
+- Fortune Cards
+- Lizi's Reins (Maruuk Centaur Mount)
+- Primal Storms (Pre-Patch Event)
+
+## Contributors
+
+- ZehelFenris ([GitHub](https://github.com/ZehelFenris))
 
 ## Support & Connect
+
 - GitHub: [https://github.com/AvyAddons](AvyAddons)
 - Twitter: [https://twitter.com/Avyiel7](@Avyiel7)
 - Patreon: [https://patreon.com/avyiel](https://patreon.com/avyiel)
