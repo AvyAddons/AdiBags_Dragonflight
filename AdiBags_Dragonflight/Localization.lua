@@ -86,6 +86,8 @@ end)({
         ["Move Darkmoon Cards into their own category"] = true,        
         ["Move Fortune Cards"] = true,
         ["Move Fortune Cards into their own category"] = true,
+        ["Move |cff56BBFFDrakewatcher Manuscripts|r"] = true,
+        ["Move |cff56BBFFDrakewatcher Manuscripts|r into their own category"] = true,
 
         ["Primal Storms"] = true,
         ["|cff0070ddProfession Knowledge|r"] = true,
@@ -94,6 +96,7 @@ end)({
         ["Treasure Sacks"] = true,
         ["Darkmoon Cards"] = true,
         ["Fortune Cards"] = true,
+        ["|cff56BBFFDrakewatcher Manuscript|r"] = true,
     },
     ["deDE"] = {},
     ["esES"] = {},
