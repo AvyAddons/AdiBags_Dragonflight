@@ -57,36 +57,204 @@ addon.db = {
 		category = "|cff0070ddProfession Knowledge|r",
 		items = {
 			-- Alchemy
-			201003, 198685, 198697, 198599, 198663, 198710, 198712, 194697, 198963, 200974, 198964, 198608, 193891,
-			201270, 193897, 201706, 201281,
+			--------------------------------------------------------------------
+			198608, -- Alchemy Notes
+			201281, -- Ancient Alchemist's ResearchTalent
+			198963, -- Decaying Phlegm
+			194697, -- Draconic Treatise on Alchemy
+			200974, -- Dusty Alchemist's Research
+			198964, -- Elementious Splinter
+			193891, -- Experimental Substance
+			201706, -- Notebook of Crafting Knowledge
+			201270, -- Rare Alchemist's Research
+			193897, -- Reawakened Catalyst
+			198710, -- Canteen of Suspicious Water
+			198697, -- Contraband Concoction
+			198599, -- Experimental Decay Sample
+			198712, -- Firewater Powder Sample
+			198663, -- Frostforged Potion
+			201003, -- Furry Gloop
+			198685, -- Well Insulated Mug
 			-- Blacksmithing
-			201007, 201004, 201006, 201009, 198454, 201005, 201011, 201010, 201008, 200972, 198606, 198966, 198965,
-			201268, 192131, 192132, 201708, 201279,
+			--------------------------------------------------------------------
+			192130, -- Sundered Flame Weapon Mold
+			201279, -- Ancient Blacksmith's Diagrams
+			198606, -- Blacksmith's Writ
+			198454, -- Draconic Treatise on Blacksmithing
+			192132, -- Draconium Blade Sharpener
+			200972, -- Dusty Blacksmith's Diagrams
+			198966, -- Molten Globule
+			201708, -- Notebook of Crafting Knowledge
+			198965, -- Primeval Earth Fragment
+			201268, -- Rare Blacksmith's Diagrams
+			192131, -- Valdrakken Weapon Chain
+			201007, -- Ancient Monument
+			201004, -- Ancient Spear Shards
+			201005, -- Curious Ingots
+			201006, -- Draconic Flux
+			201009, -- Falconer Gauntlet Drawings
+			201008, -- Molten Ingot
+			201010, -- Qalashi Weapon Diagram
+			201011, -- Spelltouched Tongs
 			-- Enchanting
-			201012, 201013, 194702, 200976, 201709, 198968, 201283, 193900, 198967, 198610, 201272, 193901,
+			--------------------------------------------------------------------
+			201283, -- Ancient Enchanter's Research
+			194702, -- Draconic Treatise on Enchanting
+			200976, -- Dusty Enchanter's Research
+			198610, -- Enchanter's Script
+			201709, -- Notebook of Crafting Knowledge
+			193901, -- Primal Dust
+			198968, -- Primalist Charm
+			198967, -- Primordial Aether
+			193900, -- Prismatic Focusing Shard
+			201272, -- Rare Enchanter's Research
+			201012, -- Enchanted Debris
+			201013, -- Faintly Enchanted Remains
 			-- Engineering
-			201014, 198789, 198510, 200977, 198611, 198969, 198970, 201284, 201710, 201273, 193902, 193903,
+			--------------------------------------------------------------------
+			201284, -- Ancient Engineer's Scribblings
+			198510, -- Draconic Treatise on Engineering
+			200977, -- Dusty Engineer's Scribblings
+			198611, -- Engineering Details
+			193902, -- Eroded Titan Gizmo
+			198970, -- Infinitely Attachable Pair o' Docks
+			198969, -- Keeper's Mark
+			201710, -- Notebook of Crafting Knowledge
+			201273, -- Rare Engineer's Scribblings
+			193903, -- Watcher Power Core
+			201014, -- Boomthyr Rocket
+			198789, -- Intact Coil Capacitor
 			-- Herbalism
-			194704, 202014, 200677, 200980, 200678, 199115, 201287, 201276, 194054, 201705, 201717, 194041, 194080,
-			194081, 194055, 194061,
+			--------------------------------------------------------------------
+			201287, -- Ancient Herbalist's Notes
+			194704, -- Draconic Treatise on Herbalism
+			200677, -- Dreambloom Petal
+			194054, -- Dredged Seedling
+			194041, -- Driftbloom Sprout
+			200980, -- Dusty Herbalist's Notes
+			199115, -- Herbalism Field Notes
+			202014, -- Infused Pollen
+			194081, -- Mutated Root
+			201705, -- Notebook of Crafting Knowledge
+			201717, -- Notebook of Crafting Knowledge
+			194080, -- Peculiar Bud
+			194055, -- Primordial Soil
+			201276, -- Rare Herbalist's Notes
+			194061, -- Suffocating Spores
+			200678, -- Dreambloom
 			-- Inscription
-			198703, 198669, 194699, 198704, 198659, 198686, 201015, 200973, 198972, 198607, 201269, 193904, 201711,
-			193905, 201280, 198971,
+			--------------------------------------------------------------------
+			201280, -- Ancient Scribe's Runic Drawings
+			198971, -- Curious Djaradin Rune
+			198972, -- Draconic Glamour
+			194699, -- Draconic Treatise on Inscription
+			200973, -- Dusty Scribe's Runic Drawings
+			193905, -- Iskaaran Trading Ledger
+			201711, -- Notebook of Crafting Knowledge
+			193904, -- Phoenix Feather Quill
+			201269, -- Rare Scribe's Runic Drawings
+			198607, -- Scribe's Glyphs
+			201015, -- Counterfeit Darkmoon Deck
+			198659, -- Forgetful Apprentice's Tome
+			198686, -- Frosted Parchment
+			198669, -- How to Train Your Whelpling
+			198704, -- Pulsing Earth Rune
+			198703, -- Sign Language Reference Sheet
 			-- Jewelcrafting
-			198656, 198670, 201016, 198660, 198687, 201017, 198664, 198682, 194703, 200978, 198973, 201712, 198612,
-			198974, 193907, 201285, 193909, 201274,
+			--------------------------------------------------------------------
+			193909, -- Ancient Gem Fragments
+			201285, -- Ancient Jeweler's Illustrations
+			193907, -- Chipped Tyrstone
+			194703, -- Draconic Treatise on Jewelcrafting
+			200978, -- Dusty Jeweler's Illustrations
+			198974, -- Elegantly Engraved Embellishment
+			198973, -- Incandescent Curio
+			198612, -- Jeweler's Cuts
+			201712, -- Notebook of Crafting Knowledge
+			201274, -- Rare Jeweler's Illustrations
+			198682, -- Alexstraszite Cluster
+			198687, -- Closely Guarded Shiny
+			198664, -- Crystalline Overgrowth
+			198660, -- Fragmented Key
+			201016, -- Harmonic Crystal Harmonizer
+			201017, -- Igneous Gem
+			198670, -- Lofty Malygite
+			198656, -- Painter's Pretty Jewel
 			-- Leatherworking
-			198711, 198690, 198696, 201018, 198683, 198667, 198658, 194700, 200979, 198975, 198976, 198613, 201275,
-			193910, 193913, 201286, 201713,
+			--------------------------------------------------------------------
+			201286, -- Ancient Leatherworker's Diagrams
+			194700, -- Draconic Treatise on Leatherworking
+			200979, -- Dusty Leatherworker's Diagrams
+			198976, -- Exceedingly Soft Skin
+			198613, -- Leatherworking Designs
+			193910, -- Molted Dragon Scales
+			201713, -- Notebook of Crafting Knowledge
+			198975, -- Ossified Hide
+			193913, -- Preserved Animal Parts
+			201275, -- Rare Leatherworker's Diagrams
+			198658, -- Decay-Infused Tanning Oil
+			198690, -- Decayed Scales
+			198711, -- Poacher's Pack
+			198667, -- Spare Djaradin Tools
+			198683, -- Treated Hides
+			201018, -- Well-Danced Drum
+			198696, -- Wind-Blessed Hide
 			-- Mining
-			194708, 201301, 202011, 200981, 201300, 199122, 194062, 194039, 201277, 201288, 201716, 201700, 194078,
-			194063, 194064, 194079,
+			--------------------------------------------------------------------
+			201288, -- Ancient Miner's Notes
+			194708, -- Draconic Treatise on Mining
+			200981, -- Dusty Miner's Notes
+			202011, -- Elementally-Charged Stone
+			194063, -- Glowing Fragment
+			194039, -- Heated Ore Sample
+			194064, -- Intricate Geode
+			201300, -- Iridescent Ore Fragments
+			199122, -- Mining Field Notes
+			201700, -- Notebook of Crafting Knowledge
+			194078, -- Perfect Draconium Scale
+			194079, -- Pure Serevite Nugget
+			201277, -- Rare Miner's Notes
+			194062, -- Unyielding Stone Chunk
+			201301, -- Iridescent Ore
+			201716, -- Notebook of Crafting Knowledge
 			-- Skinning
-			201023, 202016, 198837, 198841, 200982, 199128, 201278, 201289, 194076, 201714, 194066, 194067, 194040,
-			194077, 201718, 194068,
+			--------------------------------------------------------------------
+			201289, -- Ancient Skinner's Notes
+			198837, -- Curious Hide Scraps
+			201023, -- Draconic Treatise on Skinning
+			200982, -- Dusty Skinner's Notes
+			194076, -- Exotic Resilient Leather
+			194067, -- Festering Carcass
+			194066, -- Frigid Frostfur Pelt
+			201714, -- Notebook of Crafting Knowledge
+			201718, -- Notebook of Crafting Knowledge
+			194077, -- Pristine Adamant Scales
+			194068, -- Progenitor Scales
+			201278, -- Rare Skinner's Notes
+			202016, -- Saturated Bone
+			199128, -- Skinning Field Notes
+			194040, -- Slateskin Hide
+			198841, -- Large Sample of Curious Hide
 			-- Tailoring
-			201019, 194698, 198684, 201020, 198702, 198699, 198692, 198662, 198680, 200975, 198609, 198977, 198978,
-			201271, 193898, 193899, 201282, 201715,
+			--------------------------------------------------------------------
+			201282, -- Ancient Tailor's Diagrams
+			194698, -- Draconic Treatise on Tailoring
+			200975, -- Dusty Tailor's Diagrams
+			201715, -- Notebook of Crafting Knowledge
+			198977, -- Ohn'arhan Weave
+			193899, -- Primalweave Spindle
+			201271, -- Rare Tailor's Diagrams
+			198978, -- Stupidly Effective Stitchery
+			198609, -- Tailoring Examples
+			193898, -- Umbral Bone Needle
+			201019, -- Ancient Dragonweave Bolt
+			198680, -- Decaying Brackenhide Blanket
+			198662, -- Intriguing Bolt of Blue Cloth
+			198702, -- Itinerant Singed Fabric
+			198684, -- Miniature Bronze Dragonflight Banner
+			198699, -- Mysterious Banner
+			198692, -- Noteworthy Scrap of Carpet
+			201020, -- Silky Surprise
 		},
 	},
 	lizis_reins = {
