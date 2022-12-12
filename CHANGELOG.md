@@ -4,14 +4,18 @@ All notable changes to this project will be documented in this file. Be aware th
 The format is based on [Keep a Changelog](http://keepachangelog.com/) 
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [1.2.1] 2022-12-11
+### Added
+- Drakewatcher Manuscripts
+- Alternative IDs for some reputation items
+
 ## [1.2.0] 2022-12-11
 ### Added
-- New database items:
-  - Reputation & Renown
-  - Profession Knowledge
-  - Treasure Sacks
-  - Fortune Cards
-  - Lizi's Reins
+- Reputation & Renown
+- Profession Knowledge
+- Treasure Sacks
+- Fortune Cards
+- Lizi's Reins
 
 ## [1.1.0] 2022-11-16
 ### Fixed

@@ -9,6 +9,7 @@ Currently, this addon supports:
 - Profession Knowledge
 - Treasure Sacks
 - Fortune Cards
+- Drakewatcher Manuscripts
 - Lizi's Reins (Maruuk Centaur Mount)
 - Primal Storms (Pre-Patch Event)
 
