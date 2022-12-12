@@ -110,8 +110,11 @@ addon.db = {
 			191264, -- Restored Obsidian Key
 			191255, -- Greater Obsidian Key
 			199906, -- Titan Relic
+			200450, -- Titan Relic
 			200071, -- Sacred Tuskarr Totem
+			200449, -- Sacred Tuskarr Totem
 			192055, -- Dragon Isles Artifact
+			200443, -- Dragon Isles Artifact
 			200093, -- Centaur Hunting Trophy
 			200447, -- Centaur Hunting Trophy
 		},
