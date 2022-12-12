@@ -86,7 +86,7 @@ end)({
         ["Move Darkmoon Cards into their own category"] = true,        
         ["Move Fortune Cards"] = true,
         ["Move Fortune Cards into their own category"] = true,
-        ["Move |cff56BBFFDrakewatcher Manuscripts|r"] = true,
+        ["Move |cff56BBFFDrakewatcher Manuscript|r"] = true,
         ["Move |cff56BBFFDrakewatcher Manuscripts|r into their own category"] = true,
 
         ["Primal Storms"] = true,
