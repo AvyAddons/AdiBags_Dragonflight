@@ -11,6 +11,8 @@ Currently, this addon supports:
 - Fortune Cards
 - Drakewatcher Manuscripts
 - Lizi's Reins (Maruuk Centaur Mount)
+- Temperamental Skyclaw (Azure Span Gnoll Mount)
+- Magmashell (Snail Mount)
 - Primal Storms (Pre-Patch Event)
 
 ## Contributors
