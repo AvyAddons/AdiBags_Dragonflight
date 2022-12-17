@@ -268,6 +268,24 @@ addon.db = {
 			200598, -- Meluun's Green Curry
 		},
 	},
+	temperamental_skyclaw = {
+		name = "Move |cffa335eeTemperamental Skyclaw|r",
+		desc = "Move |cffa335eeTemperamental Skyclaw|r items into their own category",
+		category = "|cffa335eeTemperamental Skyclaw|r",
+		items = {
+			201422, -- Flash Frozen Meat
+			201420, -- Gnolan's House Special
+			201421, -- Tuskarr Jerky
+		},
+	},
+	magmashell = {
+		name = "Move |cffa335eeMagmashell|r",
+		desc = "Move |cffa335eeMagmashell|r items into their own category",
+		category = "|cffa335eeMagmashell|r",
+		items = {
+			201883, -- Empty Magma Shell
+		},
+	},
 	reputation = {
 		name = "Move |cffff8040Reputation|r",
 		desc = "Move |cffff8040Reputation|r items into their own category",

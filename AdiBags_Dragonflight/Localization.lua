@@ -69,7 +69,7 @@ end)({
     -- * Entries where the value (to the right) is the boolean 'true',
     --   will use the key (to the left) as the value instead!
     ["enUS"] = {
-        ["Dragonflight"] = true, -- uiName
+        ["|cffa0a0a0Dragonflight|r"] = true, -- uiName
         ["Put common Dragoflight items in their own categories."] = true, -- uiDesc
 
         ["Move Primal Storms"] = true,
@@ -78,12 +78,16 @@ end)({
         ["Move |cff0070ddProfession Knowledge|r items into their own category"] = true,
         ["Move |cffa335eeLizi's Reins|r"] = true,
         ["Move |cffa335eeLizi's Reins|r items into their own category"] = true,
+        ["Move |cffa335eeTemperamental Skyclaw|r"] = true,
+        ["Move |cffa335eeTemperamental Skyclaw|r items into their own category"] = true,
+        ["Move |cffa335eeMagmashell|r"] = true,
+        ["Move |cffa335eeMagmashell|r items into their own category"] = true,
         ["Move |cffff8040Reputation|r"] = true,
         ["Move |cffff8040Reputation|r items into their own category"] = true,
         ["Move Treasure Sacks"] = true,
         ["Move Treasure Sacks into their own category"] = true,
         ["Move Darkmoon Cards"] = true,
-        ["Move Darkmoon Cards into their own category"] = true,        
+        ["Move Darkmoon Cards into their own category"] = true,
         ["Move Fortune Cards"] = true,
         ["Move Fortune Cards into their own category"] = true,
         ["Move |cff56BBFFDrakewatcher Manuscript|r"] = true,
@@ -92,6 +96,8 @@ end)({
         ["Primal Storms"] = true,
         ["|cff0070ddProfession Knowledge|r"] = true,
         ["|cffa335eeLizi's Reins|r"] = true,
+        ["|cffa335eeTemperamental Skyclaw|r"] = true,
+        ["|cffa335eeMagmashell|r"] = true,
         ["|cffff8040Reputation|r"] = true,
         ["Treasure Sacks"] = true,
         ["Darkmoon Cards"] = true,
