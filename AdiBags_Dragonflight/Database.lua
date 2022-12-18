@@ -110,6 +110,15 @@ addon.db = {
 			201272, -- Rare Enchanter's Research
 			201012, -- Enchanted Debris
 			201013, -- Faintly Enchanted Remains
+			-- Disenchant these
+			200941, -- Seal of Order
+			200939, -- Chromatic Pocketwatch
+			200947, -- Carving of Awakening
+			200940, -- Everflowing Inkwell
+			200943, -- Whispering Band
+			200942, -- Vibrant Emulsion
+			200946, -- Thunderous Blade
+			200945, -- Valiant Hammer
 			-- Engineering
 			--------------------------------------------------------------------
 			201284, -- Ancient Engineer's Scribblings
