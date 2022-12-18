@@ -4,7 +4,11 @@ All notable changes to this project will be documented in this file. Be aware th
 The format is based on [Keep a Changelog](http://keepachangelog.com/) 
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
-## [1.2.2] 2022-12-11
+## [1.2.3] 2022-12-18
+### Added
+- Missing _Mystic_ items to disenchant for Enchanting Knowledge
+
+## [1.2.2] 2022-12-17
 ### Added
 - Temperamental Skyclaw
 - Magmashell
