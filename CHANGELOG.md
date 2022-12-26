@@ -1,8 +1,11 @@
 # AdiBags Dragonflight Change Log
 All notable changes to this project will be documented in this file. Be aware that the [Unreleased] features are not yet available in the official tagged builds.
 
-The format is based on [Keep a Changelog](http://keepachangelog.com/) 
-and this project adheres to [Semantic Versioning](http://semver.org/).
+The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
+
+## [1.2.4] 2022-12-26
+### Added
+- Missing _Dragon Shard of Knowledge_ to Profession Knowledge
 
 ## [1.2.3] 2022-12-18
 ### Added
