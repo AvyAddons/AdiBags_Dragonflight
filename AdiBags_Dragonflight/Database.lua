@@ -56,6 +56,7 @@ addon.db = {
 		desc = "Move |cff0070ddProfession Knowledge|r items into their own category",
 		category = "|cff0070ddProfession Knowledge|r",
 		items = {
+			191784, -- Dragon Shard of Knowledge
 			-- Alchemy
 			--------------------------------------------------------------------
 			198608, -- Alchemy Notes
