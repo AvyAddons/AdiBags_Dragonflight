@@ -3,6 +3,11 @@ All notable changes to this project will be documented in this file. Be aware th
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [1.2.6] 2023-01-25
+### Added
+- Ancient Vault Artifact added to Reputation items
+- Storm's Fury items added to a new category!
+
 ## [1.2.5] 2023-01-25
 ### Changed
 - Bump TOC to 10.0.5
