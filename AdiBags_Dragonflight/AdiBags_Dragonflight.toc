@@ -1,4 +1,4 @@
-## Interface: 100002
+## Interface: 100005
 
 ## Title: AdiBags - Dragonflight
 ## Notes: AdiBags filter for common Dragonflight items.
