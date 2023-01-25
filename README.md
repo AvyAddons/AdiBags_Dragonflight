@@ -14,6 +14,7 @@ Currently, this addon supports:
 - Temperamental Skyclaw (Azure Span Gnoll Mount)
 - Magmashell (Snail Mount)
 - Primal Storms (Pre-Patch Event)
+- The Storm's Fury (Primalist Furute Event)
 
 ## Contributors
 
