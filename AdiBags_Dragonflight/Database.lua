@@ -51,6 +51,15 @@ addon.db = {
 			199839, -- Dimmed Primeval Water
 		},
 	},
+	storms_fury = {
+		name = "Move The Storm's Fury",
+		desc = "Move The Storm's Fury's items into their own category",
+		category = "|cffB5D3E7Storm's Fury|r",
+		items = {
+			203478, -- Field Deployable Heat Source
+			202039, -- Essence of the Storm
+		}
+	},
 	profession_knowledge = {
 		name = "Move |cff0070ddProfession Knowledge|r",
 		desc = "Move |cff0070ddProfession Knowledge|r items into their own category",
@@ -313,6 +322,8 @@ addon.db = {
 			200443, -- Dragon Isles Artifact
 			200093, -- Centaur Hunting Trophy
 			200447, -- Centaur Hunting Trophy
+			201411, -- Ancient Vault Artifact
+			201412, -- Ancient Vault Artifact
 		},
 	},
 	treasure_sack = {

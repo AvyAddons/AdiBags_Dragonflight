@@ -61,6 +61,7 @@ function filter:OnInitialize()
 		profile = {
 			-- Add your settings here
 			move_primal_storms = true,
+			move_storms_fury = true,
 			move_profession_knowledge = true,
 			move_drakewatcher = true,
 			move_lizis_reins = true,
@@ -107,6 +108,9 @@ function filter:BuildCache()
 	if self.db.profile.move_primal_storms then
 		enableIds(ids, DB.primal_storms)
 	end
+	if self.db.profile.move_storms_fury then
+		enableIds(ids, DB.storms_fury)
+	end
 	if self.db.profile.move_profession_knowledge then
 		enableIds(ids, DB.profession_knowledge)
 	end
@@ -148,6 +152,12 @@ function filter:GetOptions()
 			desc = L[DB.primal_storms.desc],
 			type = "toggle",
 			order = 999,
+		},
+		move_storms_fury = {
+			name = L[DB.storms_fury.name],
+			desc = L[DB.storms_fury.desc],
+			type = "toggle",
+			order = 40,
 		},
 		move_profession_knowledge = {
 			name = L[DB.profession_knowledge.name],

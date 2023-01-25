@@ -74,6 +74,8 @@ end)({
 
         ["Move Primal Storms"] = true,
         ["Move Primal Storms items into their own category"] = true,
+		["Move The Storm's Fury"] = true,
+		["Move The Storm's Fury's items into their own category"] = true,
         ["Move |cff0070ddProfession Knowledge|r"] = true,
         ["Move |cff0070ddProfession Knowledge|r items into their own category"] = true,
         ["Move |cffa335eeLizi's Reins|r"] = true,
@@ -94,6 +96,7 @@ end)({
         ["Move |cff56BBFFDrakewatcher Manuscripts|r into their own category"] = true,
 
         ["Primal Storms"] = true,
+		["|cffB5D3E7Storm's Fury|r"] = true,
         ["|cff0070ddProfession Knowledge|r"] = true,
         ["|cffa335eeLizi's Reins|r"] = true,
         ["|cffa335eeTemperamental Skyclaw|r"] = true,
