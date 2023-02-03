@@ -32,6 +32,7 @@ local DB = addon.db
 -- Lua API
 -----------------------------------------------------------
 local ipairs = ipairs
+local pairs = pairs
 
 -- Callbacks
 -----------------------------------------------------------
@@ -60,17 +61,18 @@ function filter:OnInitialize()
 	self.db = AdiBags.db:RegisterNamespace(self.filterName, {
 		profile = {
 			-- Add your settings here
-			move_primal_storms = true,
-			move_storms_fury = true,
-			move_profession_knowledge = true,
-			move_drakewatcher = true,
-			move_lizis_reins = true,
-			move_temperamental_skyclaw = true,
-			move_magmashell = true,
-			move_reputation = true,
-			move_treasure_sack = true,
-			move_darkmoon_cards = true,
-			move_fortune_card = true,
+			primal_storms = true,
+			storms_fury = true,
+			profession_knowledge = true,
+			drakewatcher = true,
+			lizis_reins = true,
+			temperamental_skyclaw = true,
+			magmashell = true,
+			magmammoth = true,
+			reputation = true,
+			treasure_sack = true,
+			darkmoon_cards = true,
+			fortune_card = true,
 		},
 	})
 	-- Populate our cache now that settings have loaded
@@ -105,38 +107,10 @@ end
 function filter:BuildCache()
 	local ids = {}
 
-	if self.db.profile.move_primal_storms then
-		enableIds(ids, DB.primal_storms)
-	end
-	if self.db.profile.move_storms_fury then
-		enableIds(ids, DB.storms_fury)
-	end
-	if self.db.profile.move_profession_knowledge then
-		enableIds(ids, DB.profession_knowledge)
-	end
-	if self.db.profile.move_drakewatcher then
-		enableIds(ids, DB.drakewatcher)
-	end
-	if self.db.profile.move_lizis_reins then
-		enableIds(ids, DB.lizis_reins)
-	end
-	if self.db.profile.move_temperamental_skyclaw then
-		enableIds(ids, DB.temperamental_skyclaw)
-	end
-	if self.db.profile.move_magmashell then
-		enableIds(ids, DB.magmashell)
-	end
-	if self.db.profile.move_reputation then
-		enableIds(ids, DB.reputation)
-	end
-	if self.db.profile.move_treasure_sack then
-		enableIds(ids, DB.treasure_sack)
-	end
-	if self.db.profile.move_darkmoon_cards then
-		enableIds(ids, DB.darkmoon_cards)
-	end
-	if self.db.profile.move_fortune_card then
-		enableIds(ids, DB.fortune_card)
+	for key, value in pairs(DB) do
+		if (self.db.profile[key]) then
+			enableIds(ids, value)
+		end
 	end
 
 	return ids
@@ -145,73 +119,16 @@ end
 -- Filter Options Panel
 -----------------------------------------------------------
 function filter:GetOptions()
-	return {
-		-- Setup for the options panel
-		move_primal_storms = {
-			name = L[DB.primal_storms.name],
-			desc = L[DB.primal_storms.desc],
+	local options = {}
+
+	for key, value in pairs(DB) do
+		options[key] = {
+			name = L[value.name],
+			desc = L[value.desc],
 			type = "toggle",
-			order = 999,
-		},
-		move_storms_fury = {
-			name = L[DB.storms_fury.name],
-			desc = L[DB.storms_fury.desc],
-			type = "toggle",
-			order = 40,
-		},
-		move_profession_knowledge = {
-			name = L[DB.profession_knowledge.name],
-			desc = L[DB.profession_knowledge.desc],
-			type = "toggle",
-			order = 12,
-		},
-		move_drakewatcher = {
-			name = L[DB.drakewatcher.name],
-			desc = L[DB.drakewatcher.desc],
-			type = "toggle",
-			order = 13,
-		},
-		move_lizis_reins = {
-			name = L[DB.lizis_reins.name],
-			desc = L[DB.lizis_reins.desc],
-			type = "toggle",
-			order = 14,
-		},
-		move_temperamental_skyclaw = {
-			name = L[DB.temperamental_skyclaw.name],
-			desc = L[DB.temperamental_skyclaw.desc],
-			type = "toggle",
-			order = 15,
-		},
-		move_magmashell = {
-			name = L[DB.magmashell.name],
-			desc = L[DB.magmashell.desc],
-			type = "toggle",
-			order = 16,
-		},
-		move_reputation = {
-			name = L[DB.reputation.name],
-			desc = L[DB.reputation.desc],
-			type = "toggle",
-			order = 30,
-		},
-		move_treasure_sack = {
-			name = L[DB.treasure_sack.name],
-			desc = L[DB.treasure_sack.desc],
-			type = "toggle",
-			order = 32,
-		},
-		move_darkmoon_cards = {
-			name = L[DB.darkmoon_cards.name],
-			desc = L[DB.darkmoon_cards.desc],
-			type = "toggle",
-			order = 34,
-		},
-		move_fortune_card = {
-			name = L[DB.fortune_card.name],
-			desc = L[DB.fortune_card.desc],
-			type = "toggle",
-			order = 36,
-		},
-	}, AdiBags:GetOptionHandler(self, true, function() return self:Update() end)
+			order = value.order,
+		}
+	end
+
+	return options, AdiBags:GetOptionHandler(self, true, function() return self:Update() end)
 end
