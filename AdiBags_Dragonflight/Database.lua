@@ -603,6 +603,8 @@ addon.db = {
 			200447, -- Centaur Hunting Trophy
 			201411, -- Ancient Vault Artifact
 			201412, -- Ancient Vault Artifact
+			201991, -- Sargha's Signet
+			200224, -- Mark of Sargha
 		},
 	},
 	treasure_sack = {
