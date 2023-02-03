@@ -40,90 +40,90 @@ local GetLocale = _G.GetLocale
 -- Do not modify the function,
 -- just the locales in the table below!
 local L = (function(tbl, defaultLocale)
-    local gameLocale = GetLocale() -- The locale currently used by the game client.
-    local L = tbl[gameLocale] or tbl[defaultLocale] -- Get the localization for the current locale, or use your default.
-    -- Replace the boolean 'true' with the key,
-    -- to simplify locale creation and reduce space needed.
-    for i in pairs(L) do
-        if (L[i] == true) then
-            L[i] = i
-        end
-    end
-    -- If the game client is in another locale than your default,
-    -- fill in any missing localization in the client's locale
-    -- with entries from your default locale.
-    if (gameLocale ~= defaultLocale) then
-        for i, msg in pairs(tbl[defaultLocale]) do
-            if (not L[i]) then
-                -- Replace the boolean 'true' with the key,
-                -- to simplify locale creation and reduce space needed.
-                L[i] = (msg == true) and i or msg
-            end
-        end
-    end
-    return L
+	local gameLocale = GetLocale() -- The locale currently used by the game client.
+	local L = tbl[gameLocale] or tbl[defaultLocale] -- Get the localization for the current locale, or use your default.
+	-- Replace the boolean 'true' with the key,
+	-- to simplify locale creation and reduce space needed.
+	for i in pairs(L) do
+		if (L[i] == true) then
+			L[i] = i
+		end
+	end
+	-- If the game client is in another locale than your default,
+	-- fill in any missing localization in the client's locale
+	-- with entries from your default locale.
+	if (gameLocale ~= defaultLocale) then
+		for i, msg in pairs(tbl[defaultLocale]) do
+			if (not L[i]) then
+				-- Replace the boolean 'true' with the key,
+				-- to simplify locale creation and reduce space needed.
+				L[i] = (msg == true) and i or msg
+			end
+		end
+	end
+	return L
 end)({
-    -- ENTER YOUR LOCALIZATION HERE!
-    -----------------------------------------------------------
-    -- * Note that you MUST include a full table for your primary/default locale!
-    -- * Entries where the value (to the right) is the boolean 'true',
-    --   will use the key (to the left) as the value instead!
-    ["enUS"] = {
-        ["|cffa0a0a0Dragonflight|r"] = true, -- uiName
-        ["Put common Dragoflight items in their own categories."] = true, -- uiDesc
+	-- ENTER YOUR LOCALIZATION HERE!
+	-----------------------------------------------------------
+	-- * Note that you MUST include a full table for your primary/default locale!
+	-- * Entries where the value (to the right) is the boolean 'true',
+	--   will use the key (to the left) as the value instead!
+	["enUS"] = {
+		["|cffa0a0a0Dragonflight|r"] = true, -- uiName
+		["Put common Dragoflight items in their own categories."] = true, -- uiDesc
 
-        ["Move Primal Storms"] = true,
-        ["Move Primal Storms items into their own category"] = true,
+		["Move Primal Storms"] = true,
+		["Move Primal Storms items into their own category"] = true,
 		["Move The Storm's Fury"] = true,
 		["Move The Storm's Fury's items into their own category"] = true,
-        ["Move |cff0070ddProfession Knowledge|r"] = true,
-        ["Move |cff0070ddProfession Knowledge|r items into their own category"] = true,
-        ["Move |cffa335eeLizi's Reins|r"] = true,
-        ["Move |cffa335eeLizi's Reins|r items into their own category"] = true,
-        ["Move |cffa335eeTemperamental Skyclaw|r"] = true,
-        ["Move |cffa335eeTemperamental Skyclaw|r items into their own category"] = true,
-        ["Move |cffa335eeMagmashell|r"] = true,
-        ["Move |cffa335eeMagmashell|r items into their own category"] = true,
+		["Move |cff0070ddProfession Knowledge|r"] = true,
+		["Move |cff0070ddProfession Knowledge|r items into their own category"] = true,
+		["Move |cffa335eeLizi's Reins|r"] = true,
+		["Move |cffa335eeLizi's Reins|r items into their own category"] = true,
+		["Move |cffa335eeTemperamental Skyclaw|r"] = true,
+		["Move |cffa335eeTemperamental Skyclaw|r items into their own category"] = true,
+		["Move |cffa335eeMagmashell|r"] = true,
+		["Move |cffa335eeMagmashell|r items into their own category"] = true,
 		["Move |cffa335eeLoyal Magmammoth|r"] = true,
 		["Move |cffa335eeLoyal Magmammoth|r items into their own category"] = true,
-        ["Move |cffff8040Reputation|r"] = true,
-        ["Move |cffff8040Reputation|r items into their own category"] = true,
-        ["Move Treasure Sacks"] = true,
-        ["Move Treasure Sacks into their own category"] = true,
-        ["Move Darkmoon Cards"] = true,
-        ["Move Darkmoon Cards into their own category"] = true,
-        ["Move Fortune Cards"] = true,
-        ["Move Fortune Cards into their own category"] = true,
-        ["Move |cff56BBFFDrakewatcher Manuscript|r"] = true,
-        ["Move |cff56BBFFDrakewatcher Manuscripts|r into their own category"] = true,
+		["Move |cffff8040Reputation|r"] = true,
+		["Move |cffff8040Reputation|r items into their own category"] = true,
+		["Move Treasure Sacks"] = true,
+		["Move Treasure Sacks into their own category"] = true,
+		["Move Darkmoon Cards"] = true,
+		["Move Darkmoon Cards into their own category"] = true,
+		["Move Fortune Cards"] = true,
+		["Move Fortune Cards into their own category"] = true,
+		["Move |cff56BBFFDrakewatcher Manuscript|r"] = true,
+		["Move |cff56BBFFDrakewatcher Manuscripts|r into their own category"] = true,
 
-        ["Primal Storms"] = true,
+		["Primal Storms"] = true,
 		["|cffB5D3E7Storm's Fury|r"] = true,
-        ["|cff0070ddProfession Knowledge|r"] = true,
-        ["|cffa335eeLizi's Reins|r"] = true,
-        ["|cffa335eeTemperamental Skyclaw|r"] = true,
-        ["|cffa335eeMagmashell|r"] = true,
-        ["|cffa335eeLoyal Magmammoth|r"] = true,
-        ["|cffff8040Reputation|r"] = true,
-        ["Treasure Sacks"] = true,
-        ["Darkmoon Cards"] = true,
-        ["Fortune Cards"] = true,
-        ["|cff56BBFFDrakewatcher Manuscript|r"] = true,
-    },
-    ["deDE"] = {},
-    ["esES"] = {},
-    ["esMX"] = {},
-    ["frFR"] = {},
-    ["itIT"] = {},
-    ["koKR"] = {},
-    ["ptPT"] = {},
-    ["ruRU"] = {},
-    ["zhCN"] = {},
-    ["zhTW"] = {}
+		["|cff0070ddProfession Knowledge|r"] = true,
+		["|cffa335eeLizi's Reins|r"] = true,
+		["|cffa335eeTemperamental Skyclaw|r"] = true,
+		["|cffa335eeMagmashell|r"] = true,
+		["|cffa335eeLoyal Magmammoth|r"] = true,
+		["|cffff8040Reputation|r"] = true,
+		["Treasure Sacks"] = true,
+		["Darkmoon Cards"] = true,
+		["Fortune Cards"] = true,
+		["|cff56BBFFDrakewatcher Manuscript|r"] = true,
+	},
+	["deDE"] = {},
+	["esES"] = {},
+	["esMX"] = {},
+	["frFR"] = {},
+	["itIT"] = {},
+	["koKR"] = {},
+	["ptPT"] = {},
+	["ruRU"] = {},
+	["zhCN"] = {},
+	["zhTW"] = {}
 
-    -- The primary/default locale of your addon.
-    -- * You should change this code to your default locale.
-    -- * Note that you MUST include a full table for your primary/default locale!
+	-- The primary/default locale of your addon.
+	-- * You should change this code to your default locale.
+	-- * Note that you MUST include a full table for your primary/default locale!
 }, "enUS")
 
 addon.L = L
