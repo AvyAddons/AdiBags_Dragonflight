@@ -3,6 +3,14 @@ All notable changes to this project will be documented in this file. Be aware th
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.0.0] 2023-02-03
+### Added
+- Loyal Magmmamoth
+- Missing Sargha rings (Mark/Signet) to Reputation items
+
+### Changed
+- BREAKING CHANGE: reworked how options are handled to better support adding new items. This means your current settings will be lost. I'm sorry about that, but it will enable me to add new items more easily and quickly.
+
 ## [1.2.6] 2023-01-25
 ### Added
 - Ancient Vault Artifact added to Reputation items
