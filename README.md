@@ -17,6 +17,8 @@ Currently, this addon supports:
 - Primal Storms (Pre-Patch Event)
 - The Storm's Fury (Primalist Furute Event)
 
+This is a plugin only! You can get the base bag addon over at [AdiAddons/AdiBags](https://github.com/AdiAddons/AdiBags) or [CurseForge](https://www.curseforge.com/wow/addons/adibags).
+
 ## Contributors
 - ZehelFenris ([GitHub](https://github.com/ZehelFenris))
 
