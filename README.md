@@ -13,16 +13,15 @@ Currently, this addon supports:
 - Lizi's Reins (Maruuk Centaur Mount)
 - Temperamental Skyclaw (Azure Span Gnoll Mount)
 - Magmashell (Snail Mount)
+- Loyal Magmammoth (Djaradin Mammoth)
 - Primal Storms (Pre-Patch Event)
 - The Storm's Fury (Primalist Furute Event)
 
 ## Contributors
-
 - ZehelFenris ([GitHub](https://github.com/ZehelFenris))
 
 ## Support & Connect
-
-- GitHub: [https://github.com/AvyAddons](AvyAddons)
-- Twitter: [https://twitter.com/Avyiel7](@Avyiel7)
-- Patreon: [https://patreon.com/avyiel](https://patreon.com/avyiel)
+- GitHub: [AvyAddons](https://github.com/AvyAddons)
+- Twitter: [@Avyiel7](https://twitter.com/Avyiel7)
+- Patreon: [Avyiel](https://patreon.com/avyiel)
 - PayPal: [https://paypal.me/lvienna](https://paypal.me/lvienna)
