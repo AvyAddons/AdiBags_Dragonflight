@@ -10,6 +10,7 @@ Currently, this addon supports:
 - Treasure Sacks
 - Fortune Cards
 - Drakewatcher Manuscripts
+- Contracts
 - Lizi's Reins (Maruuk Centaur Mount)
 - Temperamental Skyclaw (Azure Span Gnoll Mount)
 - Magmashell (Snail Mount)
