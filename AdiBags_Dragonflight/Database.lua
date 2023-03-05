@@ -607,6 +607,29 @@ addon.db = {
 			200224, -- Mark of Sargha
 		},
 	},
+	contracts = {
+		name = "Contracts",
+		desc = "Move Contracts items into their own category",
+		category = "|cffAFB42BContracts|r",
+		order = 45,
+		items = {
+			198497, --Contract: Valdrakken Accord
+			198499, --Contract: Valdrakken Accord
+			198498, --Contract: Valdrakken Accord
+			198500, --Contract: Maruuk Centaur
+			198502, --Contract: Maruuk Centaur
+			198501, --Contract: Maruuk Centaur
+			198494, --Contract: Iskaara Tuskarr
+			198495, --Contract: Iskaara Tuskarr
+			198496, --Contract: Iskaara Tuskarr
+			198506, --Contract: Dragonscale Expedition
+			198507, --Contract: Dragonscale Expedition
+			198508, --Contract: Dragonscale Expedition
+			198505, --Contract: Artisan's Consortium
+			198503, --Contract: Artisan's Consortium
+			198504, --Contract: Artisan's Consortium
+		}
+	},
 	treasure_sack = {
 		name = "Move Treasure Sacks",
 		desc = "Move Treasure Sacks into their own category",
