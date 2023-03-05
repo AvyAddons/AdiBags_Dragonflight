@@ -57,24 +57,11 @@ filter.uiName = L["|cffa0a0a0Dragonflight|r"]
 filter.uiDesc = L["Put common Dragoflight items in their own categories."]
 
 function filter:OnInitialize()
+	-- Fetch our category option names dynamically
+	local profile = {}
+	for key, _ in pairs(DB) do profile[key] = true end
 	-- Register the settings namespace
-	self.db = AdiBags.db:RegisterNamespace(self.filterName, {
-		profile = {
-			-- Add your settings here
-			primal_storms = true,
-			storms_fury = true,
-			profession_knowledge = true,
-			drakewatcher = true,
-			lizis_reins = true,
-			temperamental_skyclaw = true,
-			magmashell = true,
-			magmammoth = true,
-			reputation = true,
-			treasure_sack = true,
-			darkmoon_cards = true,
-			fortune_card = true,
-		},
-	})
+	self.db = AdiBags.db:RegisterNamespace(self.filterName, { profile = profile })
 	-- Populate our cache now that settings have loaded
 	Cache = self:BuildCache()
 end
