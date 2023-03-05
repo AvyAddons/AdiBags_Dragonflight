@@ -97,6 +97,7 @@ end)({
 		["Move |cff56BBFFDrakewatcher Manuscript|r"] = true,
 		["Move |cff56BBFFDrakewatcher Manuscripts|r into their own category"] = true,
 
+		["Dragonflight"] = true, -- Generic Category
 		["Primal Storms"] = true,
 		["|cffB5D3E7Storm's Fury|r"] = true,
 		["|cff0070ddProfession Knowledge|r"] = true,
@@ -126,4 +127,14 @@ end)({
 	-- * Note that you MUST include a full table for your primary/default locale!
 }, "enUS")
 
-addon.L = L
+addon.L = setmetatable(L, {
+	__index = function(self, key)
+		if key ~= nil then
+			--@debug@
+			print('Missing locale', tostring(key))
+			--@end-debug@
+			rawset(self, key, tostring(key))
+		end
+		return tostring(key)
+	end,
+})
