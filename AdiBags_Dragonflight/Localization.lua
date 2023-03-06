@@ -88,6 +88,8 @@ end)({
 		["Move |cffa335eeLoyal Magmammoth|r items into their own category"] = true,
 		["Move |cffff8040Reputation|r"] = true,
 		["Move |cffff8040Reputation|r items into their own category"] = true,
+		["Move |cffAFB42BContracts|r"] = true,
+		["Move |cffAFB42BContract|r items into their own category"] = true,
 		["Move Treasure Sacks"] = true,
 		["Move Treasure Sacks into their own category"] = true,
 		["Move Darkmoon Cards"] = true,
@@ -98,7 +100,7 @@ end)({
 		["Move |cff56BBFFDrakewatcher Manuscripts|r into their own category"] = true,
 
 		["Dragonflight"] = true, -- Generic Category
-		["Primal Storms"] = true,
+		["|cff16B7FFPrimal Storms|r"] = true,
 		["|cffB5D3E7Storm's Fury|r"] = true,
 		["|cff0070ddProfession Knowledge|r"] = true,
 		["|cffa335eeLizi's Reins|r"] = true,
@@ -106,6 +108,7 @@ end)({
 		["|cffa335eeMagmashell|r"] = true,
 		["|cffa335eeLoyal Magmammoth|r"] = true,
 		["|cffff8040Reputation|r"] = true,
+		["|cffAFB42BContracts|r"] = true,
 		["Treasure Sacks"] = true,
 		["Darkmoon Cards"] = true,
 		["Fortune Cards"] = true,
