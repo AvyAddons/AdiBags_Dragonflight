@@ -608,8 +608,8 @@ addon.db = {
 		},
 	},
 	contracts = {
-		name = "Contracts",
-		desc = "Move Contracts items into their own category",
+		name = "Move |cffAFB42BContracts|r",
+		desc = "Move |cffAFB42BContract|r items into their own category",
 		category = "|cffAFB42BContracts|r",
 		order = 45,
 		items = {
