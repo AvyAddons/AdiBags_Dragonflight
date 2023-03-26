@@ -35,8 +35,6 @@ local _, addon = ...
 	items = { 12345, 12346 }
 }
 ]]
-
-
 -- Database
 -----------------------------------------------------------
 addon.db = {
@@ -61,6 +59,77 @@ addon.db = {
 		items = {
 			203478, -- Field Deployable Heat Source
 			202039, -- Essence of the Storm
+		}
+	},
+	primordial_stones = {
+		name = "Move |cffFFAB00Primordial Stones|r",
+		desc = "Move |cffFFAB00Primordial Stones|r items into their own category",
+		category = "|cffFFAB00Primordial Stones|r",
+		order = 2001,
+		items = {
+			204030, -- Wind Sculpted Stone
+			204020, -- Wild Spirit Stone
+			204028, -- Whimsical Mail Stone
+			204015, -- Swirling Mojo Stone
+			204000, -- Storm Infused Stone
+			204014, -- Sparkling Mana Stone
+			204007, -- Shining Obsidian Stone
+			204017, -- Serene Light Stone
+			204026, -- Serendipitous Gold Stone
+			204004, -- Searing Smokey Stone
+			204003, -- Raging Magma Stone
+			204029, -- Prophetic Twilight Stone
+			204008, -- Prodigious Sand Stone
+			204022, -- Pestilent Plague Stone
+			204024, -- Oozing Oil Stone
+			204025, -- Obscure Pastel Stone
+			204021, -- Necromantic Death Stone
+			204006, -- Indomitable Earth Stone
+			204018, -- Humming Arcane Stone
+			204019, -- Harmonic Music Stone
+			204009, -- Gleaming Iron Stone
+			204011, -- Freezing Ice Stone
+			204002, -- Flame Licked Stone
+			204013, -- Exuding Steam Stone
+			204005, -- Entropic Fel Stone
+			204001, -- Echoing Thunder Stone
+			204016, -- Dreadful Shadow Stone
+			204027, -- Desirous Blood Stone
+			204010, -- Deluging Water Stone
+			204012, -- Cold Frost Stone
+		}
+	},
+	artisan_curios = {
+		name = "Move |cff88AAFFArtisan Curios|r",
+		desc = "Move |cff88AAFFArtisan Curios|r items into their own category",
+		category = "|cff88AAFFArtisan Curios|r",
+		order = 2002,
+		items = {
+			203402, -- Broken Gnomish Voicebox
+			203404, -- Crystal Fork
+			203399, -- Damaged Trident
+			203398, -- Dampening Powder
+			203401, -- Dull Crystal
+			203403, -- Hastily Scrawled Rune
+			203400, -- Lackluster Spices
+			203405, -- Pristine Pelt
+			203406, -- Torn Morqut Kite
+		}
+	},
+	diamanthia_journal = {
+		name = "Move Diamanthia Journal",
+		desc = "Move Diamanthia Journal items into their own category",
+		category = "Diamanthia Journal",
+		order = 2003,
+		items = {
+			202335, -- Journal Entry: Relics
+			204200, -- Journal Entry: Experiments
+			202337, -- Journal Entry: Silence
+			202329, -- Journal Entry: Experiments
+			204221, -- Journal Entry: Relics
+			204223, -- Journal Entry: The Creches
+			202336, -- Journal Entry: The Creches
+			204246, -- Journal Entry: Silence
 		}
 	},
 	profession_knowledge = {
@@ -89,6 +158,7 @@ addon.db = {
 			198663, -- Frostforged Potion
 			201003, -- Furry Gloop
 			198685, -- Well Insulated Mug
+			204226, -- Blazehoof Ashes (10.0.7)\
 			-- Blacksmithing
 			--------------------------------------------------------------------
 			192130, -- Sundered Flame Weapon Mold
@@ -110,6 +180,7 @@ addon.db = {
 			201008, -- Molten Ingot
 			201010, -- Qalashi Weapon Diagram
 			201011, -- Spelltouched Tongs
+			204230, -- Dense Seaforged Javelin (10.0.7)
 			-- Enchanting
 			--------------------------------------------------------------------
 			201283, -- Ancient Enchanter's Research
@@ -124,6 +195,7 @@ addon.db = {
 			201272, -- Rare Enchanter's Research
 			201012, -- Enchanted Debris
 			201013, -- Faintly Enchanted Remains
+			204224, -- Speck of Arcane Awareness (10.0.7)
 			-- Disenchant these
 			200941, -- Seal of Order
 			200939, -- Chromatic Pocketwatch
@@ -147,6 +219,7 @@ addon.db = {
 			193903, -- Watcher Power Core
 			201014, -- Boomthyr Rocket
 			198789, -- Intact Coil Capacitor
+			204227, -- Everflowing Antifreeze (10.0.7)
 			-- Herbalism
 			--------------------------------------------------------------------
 			201287, -- Ancient Herbalist's Notes
@@ -165,6 +238,7 @@ addon.db = {
 			201276, -- Rare Herbalist's Notes
 			194061, -- Suffocating Spores
 			200678, -- Dreambloom
+			204228, -- Undigested Hochenblume Petal (10.0.7)
 			-- Inscription
 			--------------------------------------------------------------------
 			201280, -- Ancient Scribe's Runic Drawings
@@ -183,6 +257,7 @@ addon.db = {
 			198669, -- How to Train Your Whelpling
 			198704, -- Pulsing Earth Rune
 			198703, -- Sign Language Reference Sheet
+			204229, -- Glimmering Rune of Arcantrix (10.0.7)
 			-- Jewelcrafting
 			--------------------------------------------------------------------
 			193909, -- Ancient Gem Fragments
@@ -203,6 +278,7 @@ addon.db = {
 			201017, -- Igneous Gem
 			198670, -- Lofty Malygite
 			198656, -- Painter's Pretty Jewel
+			204222, -- Conductive Ametrine Shard (10.0.7)
 			-- Leatherworking
 			--------------------------------------------------------------------
 			201286, -- Ancient Leatherworker's Diagrams
@@ -222,6 +298,7 @@ addon.db = {
 			198683, -- Treated Hides
 			201018, -- Well-Danced Drum
 			198696, -- Wind-Blessed Hide
+			204232, -- Slyvern Alpha Claw (10.0.7)
 			-- Mining
 			--------------------------------------------------------------------
 			201288, -- Ancient Miner's Notes
@@ -240,6 +317,7 @@ addon.db = {
 			194062, -- Unyielding Stone Chunk
 			201301, -- Iridescent Ore
 			201716, -- Notebook of Crafting Knowledge
+			204632, -- Tectonic Rock Fragment (10.0.7)
 			-- Skinning
 			--------------------------------------------------------------------
 			201289, -- Ancient Skinner's Notes
@@ -258,6 +336,7 @@ addon.db = {
 			199128, -- Skinning Field Notes
 			194040, -- Slateskin Hide
 			198841, -- Large Sample of Curious Hide
+			204231, -- Kingly Sheepskin Pelt (10.0.7)
 			-- Tailoring
 			--------------------------------------------------------------------
 			201282, -- Ancient Tailor's Diagrams
@@ -278,6 +357,7 @@ addon.db = {
 			198699, -- Mysterious Banner
 			198692, -- Noteworthy Scrap of Carpet
 			201020, -- Silky Surprise
+			204225, -- Perfect Windfeather (10.0.7)
 		},
 	},
 	drakewatcher = {
@@ -481,6 +561,13 @@ addon.db = {
 			197387, -- Renewed Proto-Drake: Thin Spined Jaw
 			197382, -- Renewed Proto-Drake: White Horns
 			197393, -- Renewed Proto-Drake: White Scales
+			202278, -- Renewed Proto-Drake: Antlers (10.0.7)
+			202279, -- Renewed Proto-Drake: Malevolent Horns (10.0.7)
+			202273, -- Renewed Proto-Drake: Stubby Snout (10.0.7)
+			202277, -- Renewed Proto-Drake: Bruiser Horns (10.0.7)
+			202280, -- Renewed Proto-Drake: Pronged Tail (10.0.7)
+			202275, -- Renewed Proto-Drake: Plated Jaw (10.0.7)
+			202274, -- Renewed Proto-Drake: Plated Brow (10.0.7)
 			197588, -- Windborne Velocidrake: Armor
 			197620, -- Windborne Velocidrake: Beaked Snout
 			197597, -- Windborne Velocidrake: Black Fur
@@ -582,6 +669,24 @@ addon.db = {
 			201839, -- Netherforged Lavaproof Boots
 			201837, -- Magmammoth Harness
 		},
+	},
+	mossy_mammoth = {
+		name = "Move |cffa335eeMossy Mammoth|r",
+		desc = "Move |cffa335eeMossy Mammoth|r items into their own category",
+		category = "|cffa335eeMossy Mammoth|r",
+		order = 18,
+		items = {
+			204371, -- Drop of Blue Dragon Magic
+			204366, -- Egg of Unknown Contents
+			204374, -- Emerald Dragon Brooch
+			204375, -- Everburning Ruby Coals
+			204364, -- Magically Altered Egg
+			204363, -- Particularly Ordinary Egg
+			204369, -- Scrap of Black Dragonscales
+			204367, -- Sleeping Ancient Mammoth
+			204372, -- Speck of Bronze Dust
+			204360, -- Strange Petrified Orb
+		}
 	},
 	reputation = {
 		name = "Move |cffff8040Reputation|r",
