@@ -11,10 +11,13 @@ Currently, this addon supports:
 - Fortune Cards
 - Drakewatcher Manuscripts
 - Contracts
+- Primordial Stones
+- Artisan Curios
 - Lizi's Reins (Maruuk Centaur Mount)
 - Temperamental Skyclaw (Azure Span Gnoll Mount)
 - Magmashell (Snail Mount)
 - Loyal Magmammoth (Djaradin Mammoth)
+- Mossy Mammoth (Zskera Vaults mount)
 - Primal Storms (Pre-Patch Event)
 - The Storm's Fury (Primalist Furute Event)
 
