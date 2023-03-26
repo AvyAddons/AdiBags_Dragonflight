@@ -3,6 +3,14 @@ All notable changes to this project will be documented in this file. Be aware th
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.2.0] 2023-03-26
+### Added
+- Primordial Stones
+- Artisan Curios
+- Mossy Mammoth (Zskera Vaults mount)
+- New profession knowledge (KP) items
+- New Drakewatcher Manuscripts
+
 ## [2.1.0] 2023-03-05
 ### Added
 - Contracts
