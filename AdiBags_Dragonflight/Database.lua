@@ -688,6 +688,32 @@ addon.db = {
 			204360, -- Strange Petrified Orb
 		}
 	},
+	chip_pet = {
+		name = "Move |cff0070ddChip|r items",
+		desc = "Move |cff0070ddChip|r (companion pet) items into their own category",
+		category = "|cff0070ddChip|r",
+		order = 19,
+		items = {
+			199219, -- Element-Infused Blood
+			198082, -- Pre-Sentient Rock Cluster
+			198357, -- Rock of Aegis
+		}
+	},
+	phoenix_wishwing = {
+		name = "Move |cff0070ddPhoenix Wishwing|r items",
+		desc = "Move |cff0070ddPhoenix Wishwing|r (companion pet) items into their own category",
+		category = "|cff0070ddPhoenix Wishwing|r",
+		order = 20,
+		items = {
+			199203, -- Phoenix Ash Talisman
+			199080, -- Smoldering Phoenix Ash
+			202062, -- Ash Feather
+			199099, -- Glittering Phoenix Ember
+			199097, -- Sacred Phoenix Ash
+			199092, -- Inert Phoenix Ash
+			199177, -- Ash Feather Amulet
+		}
+	},
 	reputation = {
 		name = "Move |cffff8040Reputation|r",
 		desc = "Move |cffff8040Reputation|r items into their own category",
