@@ -17,6 +17,8 @@ Currently, this addon supports:
 - Temperamental Skyclaw (Azure Span Gnoll Mount)
 - Magmashell (Snail Mount)
 - Loyal Magmammoth (Djaradin Mammoth)
+- Chip (Companion)
+- Phoenix Wishwing (Companion)
 - Mossy Mammoth (Zskera Vaults mount)
 - Primal Storms (Pre-Patch Event)
 - The Storm's Fury (Primalist Furute Event)
