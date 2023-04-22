@@ -114,6 +114,7 @@ addon.db = {
 			203400, -- Lackluster Spices
 			203405, -- Pristine Pelt
 			203406, -- Torn Morqut Kite
+			203416, -- Dormant Lifebloom Seeds
 		}
 	},
 	diamanthia_journal = {
