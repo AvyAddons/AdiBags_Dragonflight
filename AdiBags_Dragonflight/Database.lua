@@ -115,6 +115,7 @@ addon.db = {
 			203405, -- Pristine Pelt
 			203406, -- Torn Morqut Kite
 			203416, -- Dormant Lifebloom Seeds
+			203419, -- Elusive Croaking Crab
 		}
 	},
 	diamanthia_journal = {
