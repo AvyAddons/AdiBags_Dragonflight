@@ -3,6 +3,16 @@ All notable changes to this project will be documented in this file. Be aware th
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.4.0] 2023-05-03
+### Added
+- Missing Skinning curio (Reinforced Pristine Leather)
+
+### Fixed
+- Use correct ID for Elusive Croaking Crab
+
+### Changed
+- Bumb TOC to 10.1.0
+
 ## [2.3.2] 2023-05-01
 ### Added
 - Missing Cooking curio (Elusive Croaking Crab)
