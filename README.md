@@ -14,6 +14,8 @@ Currently, this addon supports:
 - Zskera Vaults
 - Primordial Stones
 - Artisan Curios
+- Loamm
+- Shadowflame Crests
 - Lizi's Reins (Maruuk Centaur Mount)
 - Temperamental Skyclaw (Azure Span Gnoll Mount)
 - Magmashell (Snail Mount)
