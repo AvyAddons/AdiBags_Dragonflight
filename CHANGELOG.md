@@ -3,6 +3,13 @@ All notable changes to this project will be documented in this file. Be aware th
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.4.1] 2023-05-06
+### Added
+- Addon icon (shows up in the in-game addon list)
+- Zskera Vaults
+- Gooey Snailemental (Forbidden Reach mount)
+- Missing Primordial Stones
+
 ## [2.4.0] 2023-05-03
 ### Added
 - Missing Skinning curio (Reinforced Pristine Leather)
