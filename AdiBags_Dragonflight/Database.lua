@@ -647,6 +647,72 @@ addon.db = {
 			197616, -- Windborne Velocidrake: White Scales
 			197634, -- Windborne Velocidrake: Windswept Pattern
 			197610, -- Windborne Velocidrake: Yellow Horns
+			-- 10.1
+			205876, -- Highland Drake: Embodiment of the Hellforged
+			205865, -- Winding Slitherdrake: Embodiment of the Obsidian Gladiator
+			203308, -- Winding Slitherdrake: Hairy Brow
+			203310, -- Winding Slitherdrake: Grand Chin Thorn
+			203316, -- Winding Slitherdrake: Large Finned Crest
+			203309, -- Winding Slitherdrake: Long Chin Horn
+			203327, -- Winding Slitherdrake: Tan Horns
+			203331, -- Winding Slitherdrake: Cluster Horns
+			203354, -- Winding Slitherdrake: White Scales
+			203350, -- Winding Slitherdrake: Blue Scales
+			203338, -- Winding Slitherdrake: Antler Horns
+			203351, -- Winding Slitherdrake: Bronze Scales
+			203353, -- Winding Slitherdrake: Red Scales
+			203312, -- Winding Slitherdrake: Cluster Chin Horn
+			203346, -- Winding Slitherdrake: Curled Nose
+			205341, -- Winding Slitherdrake: Heavy Scales
+			203352, -- Winding Slitherdrake: Green Scales
+			203358, -- Winding Slitherdrake: Small Finned Tail
+			203339, -- Winding Slitherdrake: Impaler Horns
+			203300, -- Winding Slitherdrake: Blue and Silver Armor
+			203355, -- Winding Slitherdrake: Yellow Scales
+			203299, -- Winding Slitherdrake: Green and Bronze Armor
+			203323, -- Winding Slitherdrake: Brown Hair
+			203318, -- Winding Slitherdrake: Hairy Crest
+			203328, -- Winding Slitherdrake: White Horns
+			203345, -- Winding Slitherdrake: Split Jaw Horns
+			203360, -- Winding Slitherdrake: Large Finned Tail
+			203363, -- Winding Slitherdrake: Large Finned Throat
+			203321, -- Winding Slitherdrake: Curled Cheek Horn
+			203341, -- Winding Slitherdrake: Long Jaw Horns
+			203303, -- Winding Slitherdrake: Red and Gold Armor
+			203320, -- Winding Slitherdrake: Ears
+			203347, -- Winding Slitherdrake: Large Spiked Nose
+			203329, -- Winding Slitherdrake: Heavy Horns
+			203307, -- Winding Slitherdrake: Plated Brow
+			203313, -- Winding Slitherdrake: Spiked Chin
+			203317, -- Winding Slitherdrake: Small Finned Crest
+			203359, -- Winding Slitherdrake: Shark Finned Tail
+			203362, -- Winding Slitherdrake: Hairy Tail
+			203304, -- Winding Slitherdrake: Yellow and Silver Armor
+			203365, -- Winding Slitherdrake: Hairy Throat
+			203334, -- Winding Slitherdrake: Curled Horns
+			203335, -- Winding Slitherdrake: Curved Horns
+			203361, -- Winding Slitherdrake: Finned Tip Tail
+			203332, -- Winding Slitherdrake: Spiked Horns
+			203343, -- Winding Slitherdrake: Hairy Jaw
+			203322, -- Winding Slitherdrake: Blonde Hair
+			203330, -- Winding Slitherdrake: Swept Horns
+			203306, -- Winding Slitherdrake: Horned Brow
+			203319, -- Winding Slitherdrake: Finned Cheek
+			203325, -- Winding Slitherdrake: Red Hair
+			203344, -- Winding Slitherdrake: Single Jaw Horn
+			203333, -- Winding Slitherdrake: Short Horns
+			203340, -- Winding Slitherdrake: Cluster Jaw Horns
+			203348, -- Winding Slitherdrake: Pointed Nose
+			203324, -- Winding Slitherdrake: White Hair
+			203349, -- Winding Slitherdrake: Curved Nose Horn
+			203364, -- Winding Slitherdrake: Small Finned Throat
+			203314, -- Winding Slitherdrake: Curved Chin Horn
+			203342, -- Winding Slitherdrake: Triple Jaw Horns
+			203337, -- Winding Slitherdrake: Thorn Horns
+			203357, -- Winding Slitherdrake: Spiked Tail
+			203315, -- Winding Slitherdrake: Small Spiked Crest
+			203336, -- Winding Slitherdrake: Paired Horns
+			203311, -- Winding Slitherdrake: Hairy Chin
 		}
 	},
 	lizis_reins = {
@@ -910,5 +976,43 @@ addon.db = {
 			199132, -- Fated Fortune Card
 			199170, -- Fated Fortune Card
 		},
+	},
+	loamm = {
+		name = "Move |cffff8040Loamm|r",
+		desc = "Move |cffff8040Loamm|r items into their own category",
+		category = "|cffff8040Loamm|r",
+		order = 3000,
+		items = {
+			204715, -- Unearthed Fragrant Coin
+			204727, -- Coveted Bauble
+			204985, -- Barter Brick
+			205188, -- Barter Boulder
+			205982, -- Lost Dig Map
+			205984, -- Bartered Dig Map
+		}
+	},
+	crests = {
+		name = "Move |cffff8040Shadowflame Crests|r",
+		desc = "Move |cffff8040Shadowflame Crests|r items into their own category",
+		category = "|cffff8040Shadowflame Crests|r",
+		order = 3100,
+		items = {
+			204078, -- Aspect's Shadowflame Crest Fragment
+			204077, -- Wyrm's Shadowflame Crest Fragment
+			204076, -- Drake's Shadowflame Crest Fragment
+			204075, -- Whelpling's Shadowflame Crest Fragment
+			204194, -- Aspect's Shadowflame Crest
+			204196, -- Wyrm's Shadowflame Crest
+			204195, -- Drake's Shadowflame Crest
+			204193, -- Whelpling's Shadowflame Crest
+			204697, -- Enchanted Aspect's Shadowflame Crest
+			204681, -- Enchanted Whelpling's Shadowflame Crest
+			204682, -- Enchanted Wyrm's Shadowflame Crest
+			202171, -- Obsidian Flightstone
+			205263, -- Empowered Flightstone
+			205962, -- Echoing Storm Flightstone
+			205970, -- Azure Flightstone
+			206037, -- Ruby Flightstone
+		}
 	}
 }
