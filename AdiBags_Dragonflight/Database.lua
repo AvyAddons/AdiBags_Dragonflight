@@ -180,7 +180,13 @@ addon.db = {
 			198663, -- Frostforged Potion
 			201003, -- Furry Gloop
 			198685, -- Well Insulated Mug
-			204226, -- Blazehoof Ashes (10.0.7)\
+			204226, -- Blazehoof Ashes (10.0.7)
+			205212, -- Marrow-Ripened Slime (10.1)
+			205211, -- Nutrient Diluted Protofluid (10.1)
+			205213, -- Suspicious Mold (10.1)
+			205429, -- Bartered Alchemy Notes (10.1)
+			205353, -- Niffen Notebook of Alchemy Knowledge (10.1)
+			205440, -- Bartered Alchemy Journal (10.1)
 			-- Blacksmithing
 			--------------------------------------------------------------------
 			192130, -- Sundered Flame Weapon Mold
@@ -203,6 +209,12 @@ addon.db = {
 			201010, -- Qalashi Weapon Diagram
 			201011, -- Spelltouched Tongs
 			204230, -- Dense Seaforged Javelin (10.0.7)
+			205986, -- Well-Worn Kiln (10.1)
+			205987, -- Brimstone Rescue Ring (10.1)
+			205988, -- Zaqali Elder Spear (10.1)
+			205439, -- Bartered Blacksmithing Journal (10.1)
+			205352, -- Niffen Notebook of Blacksmithing Knowledge (10.1)
+			205428, -- Bartered Blacksmithing Notes (10.1)
 			-- Enchanting
 			--------------------------------------------------------------------
 			201283, -- Ancient Enchanter's Research
@@ -218,6 +230,9 @@ addon.db = {
 			201012, -- Enchanted Debris
 			201013, -- Faintly Enchanted Remains
 			204224, -- Speck of Arcane Awareness (10.0.7)
+			205427, -- Bartered Enchanting Notes (10.1)
+			205351, -- Niffen Notebook of Enchanting Knowledge (10.1)
+			205438, -- Bartered Enchanting Journal (10.1)
 			-- Disenchant these
 			200941, -- Seal of Order
 			200939, -- Chromatic Pocketwatch
@@ -227,6 +242,9 @@ addon.db = {
 			200942, -- Vibrant Emulsion
 			200946, -- Thunderous Blade
 			200945, -- Valiant Hammer
+			204990, -- Lava-Drenched Shadow Crystal (10.1)
+			204999, -- Shimmering Aqueous Orb (10.1)
+			205001, -- Resonating Arcane Crystal (10.1)
 			-- Engineering
 			--------------------------------------------------------------------
 			201284, -- Ancient Engineer's Scribblings
@@ -242,6 +260,17 @@ addon.db = {
 			201014, -- Boomthyr Rocket
 			198789, -- Intact Coil Capacitor
 			204227, -- Everflowing Antifreeze (10.0.7)
+			204471, -- Defective Survival Pack (10.1)
+			204480, -- Inconspicuous Data Miner (10.1)
+			204475, -- Busted Wyrmhole Generator (10.1)
+			204855, -- Overclocked Determination Core (10.1)
+			204850, -- Handful of Khaz'gorite Bolts (10.1)
+			204853, -- Discarded Dracothyst Drill (10.1)
+			204469, -- Misplaced Aberrus Outflow Blueprints (10.1)
+			204470, -- Haphazardly Discarded Bomb (10.1)
+			205349, -- Niffen Notebook of Engineering Knowledge (10.1)
+			205425, -- Bartered Engineering Notes (10.1)
+			205436, -- Bartered Engineering Journal (10.1)
 			-- Herbalism
 			--------------------------------------------------------------------
 			201287, -- Ancient Herbalist's Notes
@@ -261,6 +290,9 @@ addon.db = {
 			194061, -- Suffocating Spores
 			200678, -- Dreambloom
 			204228, -- Undigested Hochenblume Petal (10.0.7)
+			205358, -- Niffen Notebook of Herbalism Knowledge (10.1)
+			205434, -- Bartered Herbalism Notes (10.1)
+			205445, -- Bartered Herbalism Journal (10.1)
 			-- Inscription
 			--------------------------------------------------------------------
 			201280, -- Ancient Scribe's Runic Drawings
@@ -280,6 +312,12 @@ addon.db = {
 			198704, -- Pulsing Earth Rune
 			198703, -- Sign Language Reference Sheet
 			204229, -- Glimmering Rune of Arcantrix (10.0.7)
+			206035, -- Ancient Research (10.1)
+			206034, -- Hissing Rune Draft (10.1)
+			206031, -- Intricate Zaqali Runes (10.1)
+			205430, -- Bartered Inscription Notes (10.1)
+			205354, -- Niffen Notebook of Inscription Knowledge (10.1)
+			205441, -- Bartered Inscription Journal (10.1)
 			-- Jewelcrafting
 			--------------------------------------------------------------------
 			193909, -- Ancient Gem Fragments
@@ -301,6 +339,12 @@ addon.db = {
 			198670, -- Lofty Malygite
 			198656, -- Painter's Pretty Jewel
 			204222, -- Conductive Ametrine Shard (10.0.7)
+			205214, -- Snubbed Snail Shells (10.1)
+			205219, -- Broken Barter Boulder (10.1)
+			205216, -- Gently Jostled Jewels (10.1)
+			205348, -- Niffen Notebook of Jewelcrafting Knowledge (10.1)
+			205424, -- Bartered Jewelcrafting Notes (10.1)
+			205435, -- Bartered Jewelcrafting Journal (10.1)
 			-- Leatherworking
 			--------------------------------------------------------------------
 			201286, -- Ancient Leatherworker's Diagrams
@@ -321,6 +365,12 @@ addon.db = {
 			201018, -- Well-Danced Drum
 			198696, -- Wind-Blessed Hide
 			204232, -- Slyvern Alpha Claw (10.0.7)
+			204986, -- Flame-Infused Scale Oil (10.1)
+			204987, -- Lava-Forged Leatherworker's "Knife" (10.1)
+			204988, -- Sulfur-Soaked Skins (10.1)
+			205350, -- Niffen Notebook of Leatherworking Knowledge (10.1)
+			205426, -- Bartered Leatherworking Notes (10.1)
+			205437, -- Bartered Leatherworking Journal (10.1)
 			-- Mining
 			--------------------------------------------------------------------
 			201288, -- Ancient Miner's Notes
@@ -340,6 +390,9 @@ addon.db = {
 			201301, -- Iridescent Ore
 			201716, -- Notebook of Crafting Knowledge
 			204632, -- Tectonic Rock Fragment (10.0.7)
+			205356, -- Niffen Notebook of Mining Knowledge (10.1)
+			205443, -- Bartered Mining Journal (10.1)
+			205432, -- Bartered Mining Notes (10.1)
 			-- Skinning
 			--------------------------------------------------------------------
 			201289, -- Ancient Skinner's Notes
@@ -359,6 +412,10 @@ addon.db = {
 			194040, -- Slateskin Hide
 			198841, -- Large Sample of Curious Hide
 			204231, -- Kingly Sheepskin Pelt (10.0.7)
+			205433, -- Bartered Skinning Notes (10.1)
+			205451, -- Flawless Crystal Scale (10.1)
+			205357, -- Niffen Notebook of Skinning Knowledge (10.1)
+			205444, -- Bartered Skinning Journal (10.1)
 			-- Tailoring
 			--------------------------------------------------------------------
 			201282, -- Ancient Tailor's Diagrams
@@ -380,6 +437,12 @@ addon.db = {
 			198692, -- Noteworthy Scrap of Carpet
 			201020, -- Silky Surprise
 			204225, -- Perfect Windfeather (10.0.7)
+			206019, -- Abandoned Reserve Chute (10.1)
+			206030, -- Exquisitely Embroidered Banner (10.1)
+			206025, -- Used Medical Wrap Kit (10.1)
+			205431, -- Bartered Tailoring Notes (10.1)
+			205355, -- Niffen Notebook of Tailoring Knowledge (10.1)
+			205442, -- Bartered Tailoring Journal (10.1)
 		},
 	},
 	drakewatcher = {
