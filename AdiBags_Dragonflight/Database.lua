@@ -61,12 +61,31 @@ addon.db = {
 			202039, -- Essence of the Storm
 		}
 	},
+	zskera_vaults = {
+		name = "Move |cff88AAFFZskera Vault|r",
+		desc = "Move |cff88AAFFZskera Vault|r items into their own category",
+		category = "|cff88AAFFZskera Vault|r",
+		order = 2000,
+		items = {
+			202196, -- Zskera Vault Key
+			203701, -- Neltharion Gift Token
+			203705, -- Empty Obsidian Vial
+			203704, -- Stone Dissolver
+			203715, -- Oozing Gold
+			203718, -- Vial of Flames
+			203720, -- Restorative Water
+			204439, -- Research Chest Key
+		}
+	},
 	primordial_stones = {
 		name = "Move |cffFFAB00Primordial Stones|r",
 		desc = "Move |cffFFAB00Primordial Stones|r items into their own category",
 		category = "|cffFFAB00Primordial Stones|r",
 		order = 2001,
 		items = {
+			203703, -- Prismatic Fragment
+			203702, -- Experimental Melder
+			204215, -- Dormant Primordial Fragment
 			204030, -- Wind Sculpted Stone
 			204020, -- Wild Spirit Stone
 			204028, -- Whimsical Mail Stone
@@ -691,11 +710,20 @@ addon.db = {
 			204360, -- Strange Petrified Orb
 		}
 	},
+	snailemental = {
+		name = "Move |cffa335eeGooey Snailemental|r",
+		desc = "Move |cffa335eeGooey Snailemental|r items into their own category",
+		category = "|cffa335eeGooey Snailemental|r",
+		order = 19,
+		items = {
+			204352, -- Leftover Elemental Slime
+		},
+	},
 	chip_pet = {
 		name = "Move |cff0070ddChip|r items",
 		desc = "Move |cff0070ddChip|r (companion pet) items into their own category",
 		category = "|cff0070ddChip|r",
-		order = 19,
+		order = 20,
 		items = {
 			199219, -- Element-Infused Blood
 			198082, -- Pre-Sentient Rock Cluster
@@ -706,7 +734,7 @@ addon.db = {
 		name = "Move |cff0070ddPhoenix Wishwing|r items",
 		desc = "Move |cff0070ddPhoenix Wishwing|r (companion pet) items into their own category",
 		category = "|cff0070ddPhoenix Wishwing|r",
-		order = 20,
+		order = 21,
 		items = {
 			199203, -- Phoenix Ash Talisman
 			199080, -- Smoldering Phoenix Ash
