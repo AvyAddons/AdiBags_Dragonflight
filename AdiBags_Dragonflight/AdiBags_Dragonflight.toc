@@ -4,6 +4,7 @@
 ## Notes: AdiBags filter for common Dragonflight items.
 ## Author: Avyiel
 ## Version: @project-version@
+## IconTexture: Interface\Icons\inv_misc_bag_06
 
 ## DefaultState: Enabled
 ## Dependencies: AdiBags
