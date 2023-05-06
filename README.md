@@ -11,6 +11,7 @@ Currently, this addon supports:
 - Fortune Cards
 - Drakewatcher Manuscripts
 - Contracts
+- Zskera Vaults
 - Primordial Stones
 - Artisan Curios
 - Lizi's Reins (Maruuk Centaur Mount)
@@ -20,6 +21,7 @@ Currently, this addon supports:
 - Chip (Companion)
 - Phoenix Wishwing (Companion)
 - Mossy Mammoth (Zskera Vaults mount)
+- Gooey Snailemental (Forbidden Reach mount)
 - Primal Storms (Pre-Patch Event)
 - The Storm's Fury (Primalist Furute Event)
 
