@@ -3,6 +3,12 @@ All notable changes to this project will be documented in this file. Be aware th
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.4.2] 2023-05-07
+### Added
+- Loamm
+- Shadowflame Crests
+- New Drakewatcher Manuscripts
+
 ## [2.4.1] 2023-05-06
 ### Added
 - Addon icon (shows up in the in-game addon list)
