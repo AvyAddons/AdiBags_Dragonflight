@@ -896,6 +896,41 @@ addon.db = {
 			201412, -- Ancient Vault Artifact
 			201991, -- Sargha's Signet
 			200224, -- Mark of Sargha
+			200452, -- Dragonscale Expedition Insignia
+			200285, -- Dragonscale Expedition Insignia
+			201921, -- Dragonscale Expedition Insignia
+			202091, -- Dragonscale Expedition Insignia
+			200287, -- Iskaara Tuskarr Insignia
+			200453, -- Iskaara Tuskarr Insignia
+			201922, -- Iskaara Tuskarr Insignia
+			202092, -- Iskaara Tuskarr Insignia
+			200288, -- Maruuk Centaur Insignia
+			200454, -- Maruuk Centaur Insignia
+			201923, -- Maruuk Centaur Insignia
+			202094, -- Maruuk Centaur Insignia
+			200289, -- Valdrakken Accord Insignia
+			200455, -- Valdrakken Accord Insignia
+			202093, -- Valdrakken Accord Insignia
+			201924, -- Valdrakken Accord Insignia
+			205365, -- Loamm Niffen Insignia
+			205342, -- Loamm Niffen Insignia
+			205985, -- Loamm Niffen Insignia
+			198790, -- I.O.U.
+			201782, -- Tyr's Blessing
+			201783, -- Tutaqan's Commendation
+			201779, -- Merithra's Blessing
+            201781, -- Memory of Tyr
+			205251, -- Champion's Rock Bar
+			206006, -- Earth-Warder's Thanks
+			205253, -- Farmhand's Abundant Harvest
+			205250, -- Gift of the High Redolence
+			205254, -- Honorary Explorer's Compass
+			205252, -- Momento of Rekindled Bonds
+			205249, -- Pungent Niffen Incense
+			205992, -- Regurgitated Half-Digested Fish
+			205991, -- Shiny Token of Gratitude
+			205998, -- Sign of Respect
+			205989, -- Symbol of Friendship
 		},
 	},
 	contracts = {
