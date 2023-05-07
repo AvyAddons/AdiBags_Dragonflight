@@ -180,6 +180,7 @@ addon.db = {
 			198663, -- Frostforged Potion
 			201003, -- Furry Gloop
 			198685, -- Well Insulated Mug
+			203471, -- Tasty Candy (10.0.5)
 			204226, -- Blazehoof Ashes (10.0.7)
 			205212, -- Marrow-Ripened Slime (10.1)
 			205211, -- Nutrient Diluted Protofluid (10.1)
@@ -919,7 +920,7 @@ addon.db = {
 			201782, -- Tyr's Blessing
 			201783, -- Tutaqan's Commendation
 			201779, -- Merithra's Blessing
-            201781, -- Memory of Tyr
+			201781, -- Memory of Tyr
 			205251, -- Champion's Rock Bar
 			206006, -- Earth-Warder's Thanks
 			205253, -- Farmhand's Abundant Harvest
