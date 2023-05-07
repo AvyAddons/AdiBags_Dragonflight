@@ -3,9 +3,10 @@ All notable changes to this project will be documented in this file. Be aware th
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
-## [Unreleased]
+## [2.4.4] 2023-05-07
 ### Added
 - New & missing Reputation items
+- Missing Profession Knowledge item
 
 ## [2.4.3] 2023-05-07
 ### Added
