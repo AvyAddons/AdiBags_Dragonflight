@@ -1080,7 +1080,7 @@ addon.db = {
 		name = "Move |cffff8040Loamm|r",
 		desc = "Move |cffff8040Loamm|r items into their own category",
 		category = "|cffff8040Loamm|r",
-		order = 3000,
+		order = 3001,
 		items = {
 			204715, -- Unearthed Fragrant Coin
 			204727, -- Coveted Bauble
@@ -1113,5 +1113,16 @@ addon.db = {
 			205970, -- Azure Flightstone
 			206037, -- Ruby Flightstone
 		}
-	}
+	},
+	fyrakk = {
+		name = "Move |cff910951Fyrakk Assault|r",
+		desc = "Move |cff910951Fyrakk Assault|r items into their own category",
+		category = "|cff910951Fyrakk Assault|r",
+		order = 3200,
+		items = {
+			203430, -- Ward of Igira
+			203683, -- Ward of Fyrakk
+			203710, -- Everburning Key
+		}
+	},
 }
