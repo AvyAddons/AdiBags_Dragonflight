@@ -786,6 +786,12 @@ addon.db = {
 			203315, -- Winding Slitherdrake: Small Spiked Crest
 			203336, -- Winding Slitherdrake: Paired Horns
 			203311, -- Winding Slitherdrake: Hairy Chin
+			-- 10.1.5
+			208102, -- Cliffside Wylderdrake: Infinite Scales
+			208103, -- Highland Drake: Infinite Scales
+			208104, -- Renewed Proto-Drake: Infinite Scales
+			208105, -- Windborne Velocidrake: Infinite Scales
+			208106, -- Winding Slitherdrake: Infinite Scales
 		}
 	},
 	lizis_reins = {
