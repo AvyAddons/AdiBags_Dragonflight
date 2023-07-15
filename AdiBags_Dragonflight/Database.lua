@@ -124,18 +124,27 @@ addon.db = {
 		category = "|cff88AAFFArtisan Curios|r",
 		order = 2002,
 		items = {
+			203398, -- Dampening Powder
+			203399, -- Damaged Trident
+			203400, -- Lackluster Spices
+			203401, -- Dull Crystal
 			203402, -- Broken Gnomish Voicebox
 			203404, -- Crystal Fork
-			203399, -- Damaged Trident
-			203398, -- Dampening Powder
-			203401, -- Dull Crystal
 			203403, -- Hastily Scrawled Rune
-			203400, -- Lackluster Spices
 			203405, -- Pristine Pelt
 			203406, -- Torn Morqut Kite
-			203416, -- Dormant Lifebloom Seeds
+			203407, -- Draconic Suppression Powder
+			203408, -- Ancient Ceremonial Trident
 			203409, -- Elusive Croaking Crab
+			203410, -- Glowing Crystal Bookmark
+			203411, -- Gnomish Voicebox
+			203412, -- Arcane Dispelling Rune
+			203413, -- Crystal Tunning Fork
 			203414, -- Reinforced Pristine Leather
+			203415, -- Traditional Morqut Kite
+			203416, -- Dormant Lifebloom Seeds
+			203417, -- Razor Sharp Animal Bone
+			203418, -- Amplified Quaking Stone
 		}
 	},
 	diamanthia_journal = {
