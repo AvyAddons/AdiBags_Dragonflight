@@ -98,6 +98,8 @@ end)({
 		["Move Fortune Cards into their own category"] = true,
 		["Move |cff56BBFFDrakewatcher Manuscript|r"] = true,
 		["Move |cff56BBFFDrakewatcher Manuscripts|r into their own category"] = true,
+		["Move |cffEDE4D3Time Rift|r"] = true,
+		["Move |cffEDE4D3Time Rift|r items into their own category"] = true,
 
 		["Dragonflight"] = true, -- Generic Category
 		["|cff16B7FFPrimal Storms|r"] = true,
@@ -113,6 +115,7 @@ end)({
 		["Darkmoon Cards"] = true,
 		["Fortune Cards"] = true,
 		["|cff56BBFFDrakewatcher Manuscript|r"] = true,
+		["|cffEDE4D3Time Rift|r"] = true,
 	},
 	["deDE"] = {},
 	["esES"] = {},

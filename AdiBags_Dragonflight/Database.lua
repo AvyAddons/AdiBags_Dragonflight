@@ -1140,4 +1140,18 @@ addon.db = {
 			203710, -- Everburning Key
 		}
 	},
+	time_rifts = {
+		name = "Move |cffEDE4D3Time Rift|r",
+		desc = "Move |cffEDE4D3Time Rift|r items into their own category",
+		category = "|cffEDE4D3Time Rift|r",
+		order = 3300,
+		items = {
+			207582, -- Box of Tampered Reality
+			207584, -- Box of Volatile Reality
+			207583, -- Box of Collapsed Reality
+			208090, -- Contained Paracausality
+			207002, -- Encapsulated Destiny
+			207030, -- Dilated Time Capsule
+		}
+	}
 }
