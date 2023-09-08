@@ -792,6 +792,13 @@ addon.db = {
 			208104, -- Renewed Proto-Drake: Infinite Scales
 			208105, -- Windborne Velocidrake: Infinite Scales
 			208106, -- Winding Slitherdrake: Infinite Scales
+			-- 10.1.7
+			208859, -- Cliffside Wylderdrake: Day of the Dead Armor
+			208858, -- Highland Drake: Pirates' Day Armor
+			208742, -- Renewed Proto-Drake: Brewfest Armor
+			208680, -- Windborne Velocidrake: Hallow's End Armor
+			208200, -- Dragon Isles Drakes: White Scales
+			208550, -- Dragon Isles Drakes: Gilded Armor
 		}
 	},
 	lizis_reins = {
