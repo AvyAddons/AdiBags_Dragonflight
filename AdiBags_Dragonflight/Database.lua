@@ -1153,5 +1153,16 @@ addon.db = {
 			207002, -- Encapsulated Destiny
 			207030, -- Dilated Time Capsule
 		}
+	},
+	dreamsurges = {
+		name = "Move |cff67CF9EDreamsurge|r",
+		desc = "Move |cff67CF9EDreamsurge|r items into their own category",
+		category = "|cff67CF9EDreamsurge|r",
+		order = 3400,
+		items = {
+			209419, -- Charred Elemental Remains
+			207026, -- Dreamsurge Coalescence
+			208153, -- Dreamsurge Chrysalis
+		}
 	}
 }
