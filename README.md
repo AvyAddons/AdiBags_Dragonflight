@@ -15,7 +15,7 @@ Currently, this addon supports:
 - Primordial Stones
 - Artisan Curios
 - Loamm
-- Shadowflame Crests
+- Shadowflame/Dreaming Crests
 - Lizi's Reins (Maruuk Centaur Mount)
 - Temperamental Skyclaw (Azure Span Gnoll Mount)
 - Magmashell (Snail Mount)
