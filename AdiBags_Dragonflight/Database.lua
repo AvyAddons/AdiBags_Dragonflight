@@ -720,7 +720,9 @@ addon.db = {
 			197616, -- Windborne Velocidrake: White Scales
 			197634, -- Windborne Velocidrake: Windswept Pattern
 			197610, -- Windborne Velocidrake: Yellow Horns
+			--------------------------------------------------------
 			-- 10.1
+			--------------------------------------------------------
 			205876, -- Highland Drake: Embodiment of the Hellforged
 			205865, -- Winding Slitherdrake: Embodiment of the Obsidian Gladiator
 			203308, -- Winding Slitherdrake: Hairy Brow
@@ -799,6 +801,49 @@ addon.db = {
 			208680, -- Windborne Velocidrake: Hallow's End Armor
 			208200, -- Dragon Isles Drakes: White Scales
 			208550, -- Dragon Isles Drakes: Gilded Armor
+			--------------------------------------------------------
+			-- 10.2
+			--------------------------------------------------------
+			210482, -- Flourishing Whimsydrake: Back Fins
+			210471, -- Flourishing Whimsydrake: Body Armor
+			210478, -- Flourishing Whimsydrake: Gold and Pink Armor
+			210476, -- Flourishing Whimsydrake: Helmet
+			210486, -- Flourishing Whimsydrake: Horns
+			210485, -- Flourishing Whimsydrake: Long Snout
+			210487, -- Flourishing Whimsydrake: Neck Fins
+			210479, -- Flourishing Whimsydrake: Night Scales
+			210483, -- Flourishing Whimsydrake: Ridged Brow
+			210480, -- Flourishing Whimsydrake: Sunrise Scales
+			210481, -- Flourishing Whimsydrake: Sunset Scales
+			210484, -- Flourishing Whimsydrake: Underbite Snout
+			207760, -- Grotto Netherwing Drake: Armor
+			207779, -- Grotto Netherwing Drake: Barbed Tail
+			207776, -- Grotto Netherwing Drake: Black Scales
+			207762, -- Grotto Netherwing Drake: Chin Spike
+			207761, -- Grotto Netherwing Drake: Chin Tendrils
+			207759, -- Grotto Netherwing Drake: Cluster Spiked Back
+			207765, -- Grotto Netherwing Drake: Cluster Spiked Crest
+			207778, -- Grotto Netherwing Drake: Double Finned Tail
+			207774, -- Grotto Netherwing Drake: Finned Jaw
+			207764, -- Grotto Netherwing Drake: Head Spike
+			207770, -- Grotto Netherwing Drake: Helm
+			207772, -- Grotto Netherwing Drake: Long Horns
+			207769, -- Grotto Netherwing Drake: Outcast Pattern
+			207757, -- Grotto Netherwing Drake: Purple and Silver Armor
+			207771, -- Grotto Netherwing Drake: Short Horns
+			207763, -- Grotto Netherwing Drake: Single Horned Crest
+			207758, -- Grotto Netherwing Drake: Spiked Back
+			207773, -- Grotto Netherwing Drake: Spiked Jaw
+			207775, -- Grotto Netherwing Drake: Teal Scales
+			207767, -- Grotto Netherwing Drake: Tempestuous Pattern
+			207766, -- Grotto Netherwing Drake: Triple Spiked Crest
+			211381, -- Grotto Netherwing Drake: Violet Scales
+			207768, -- Grotto Netherwing Drake: Volatile Pattern
+			207777, -- Grotto Netherwing Drake: Yellow Scales
+			210432, -- Highland Drake: Winter Veil Armor
+			210537, -- Renewed Proto-Drake: Embodiment of Shadowflame
+			210536, -- Renewed Proto-Drake: Embodiment of the Blazing
+			210064, -- Winding Slitherdrake: Embodiment of the Verdant Gladiator
 		}
 	},
 	lizis_reins = {
@@ -938,6 +983,13 @@ addon.db = {
 			205365, -- Loamm Niffen Insignia
 			205342, -- Loamm Niffen Insignia
 			205985, -- Loamm Niffen Insignia
+			210422, -- Loamm Niffen Insignia
+			210419, -- Dream Wardens Insignia
+			210420, -- Dream Wardens Insignia
+			211417, -- Dream Wardens Insignia
+			210421, -- Dream Wardens Insignia
+			211416, -- Dream Wardens Insignia
+			210423, -- Dream Wardens Insignia
 			198790, -- I.O.U.
 			201782, -- Tyr's Blessing
 			201783, -- Tutaqan's Commendation
@@ -954,6 +1006,27 @@ addon.db = {
 			205991, -- Shiny Token of Gratitude
 			205998, -- Sign of Respect
 			205989, -- Symbol of Friendship
+			210921, -- Bounty of the Fallen Defector
+			211370, -- Branch of Gracus
+			211369, -- Charred Staff of the Overseer
+			210958, -- Crown of the Dryad Daughter
+			211131, -- Delicately Curated Blossoms
+			211366, -- Drops of Moon Water
+			211371, -- Dryad-Keeper Credentials
+			210916, -- Ember of Fyrakk
+			210920, -- Gift of Amirdrassil
+			211372, -- Q'onzu's Consolation Prize
+			210950, -- Insight of Q'onzu
+			210730, -- Mark of the Dream Wardens
+			210959, -- Pact of the Netherwing
+			211353, -- Roasted Ram Special
+			210957, -- Rune of the Fire Druids
+			210757, -- Scales of Remorse
+			210952, -- Spare Heated Hearthstone
+			210997, -- Spare Party Hat
+			210954, -- Sprout of Rebirth
+			210847, -- Tears of the Eye
+			210951, -- Treacherous Research Notes
 		},
 	},
 	contracts = {
@@ -1113,11 +1186,22 @@ addon.db = {
 		}
 	},
 	crests = {
-		name = "Move |cffff8040Shadowflame Crests|r",
-		desc = "Move |cffff8040Shadowflame Crests|r items into their own category",
-		category = "|cffff8040Shadowflame Crests|r",
+		name = "Move |cffff8040Crests|r",
+		desc = "Move |cffff8040Crest|r items into their own category",
+		category = "|cffff8040Crests|r",
 		order = 3100,
 		items = {
+			-- 10.2.0
+			206961, -- Enchanted Aspect's Dreaming Crest
+			206960, -- Enchanted Wyrm's Dreaming Crest
+			206977, -- Enchanted Whelpling's Dreaming Crest
+			208393, -- Nascent Aspect's Dreaming Crest
+			208395, -- Nascent Whelpling's Dreaming Crest
+			208394, -- Nascent Wyrm's Dreaming Crest
+			208568, -- Lesser Verdant Crest of Honor
+			208570, -- Greater Verdant Crest of Honor
+			208569, -- Verdant Crest of Honor
+			-- 10.1.0
 			204078, -- Aspect's Shadowflame Crest Fragment
 			204077, -- Wyrm's Shadowflame Crest Fragment
 			204076, -- Drake's Shadowflame Crest Fragment
@@ -1129,6 +1213,9 @@ addon.db = {
 			204697, -- Enchanted Aspect's Shadowflame Crest
 			204681, -- Enchanted Whelpling's Shadowflame Crest
 			204682, -- Enchanted Wyrm's Shadowflame Crest
+			204191, -- Lesser Obsidian Crest of Honor
+			204190, -- Obsidian Crest of Honor
+			204189, -- Greater Obsidian Crest of Honor
 			202171, -- Obsidian Flightstone
 			205263, -- Empowered Flightstone
 			205962, -- Echoing Storm Flightstone
