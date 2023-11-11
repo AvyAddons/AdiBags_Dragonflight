@@ -197,6 +197,9 @@ addon.db = {
 			205429, -- Bartered Alchemy Notes (10.1)
 			205353, -- Niffen Notebook of Alchemy Knowledge (10.1)
 			205440, -- Bartered Alchemy Journal (10.1)
+			210184, -- Half-Filled Dreamless Sleep Potion (10.2)
+			210185, -- Splash Potion of Narcolepsy (10.2)
+			210190, -- Blazeroot (10.2)
 			-- Blacksmithing
 			--------------------------------------------------------------------
 			192130, -- Sundered Flame Weapon Mold
@@ -225,6 +228,9 @@ addon.db = {
 			205439, -- Bartered Blacksmithing Journal (10.1)
 			205352, -- Niffen Notebook of Blacksmithing Knowledge (10.1)
 			205428, -- Bartered Blacksmithing Notes (10.1)
+			210464, -- Amirdrassil Defender's Shield (10.2)
+			210465, -- Deathstalker Chassis (10.2)
+			210466, -- Flamesworn Render (10.2)
 			-- Enchanting
 			--------------------------------------------------------------------
 			201283, -- Ancient Enchanter's Research
@@ -255,6 +261,9 @@ addon.db = {
 			204990, -- Lava-Drenched Shadow Crystal (10.1)
 			204999, -- Shimmering Aqueous Orb (10.1)
 			205001, -- Resonating Arcane Crystal (10.1)
+			210228, -- Pure Dream Water (10.2)
+			210231, -- Everburning Core (10.2)
+			210234, -- Essence of Dreams (10.2)
 			-- Engineering
 			--------------------------------------------------------------------
 			201284, -- Ancient Engineer's Scribblings
@@ -281,6 +290,10 @@ addon.db = {
 			205349, -- Niffen Notebook of Engineering Knowledge (10.1)
 			205425, -- Bartered Engineering Notes (10.1)
 			205436, -- Bartered Engineering Journal (10.1)
+			210193, -- Experimental Dreamcatcher (10.2)
+			210194, -- Insomniotron (10.2)
+			210197, -- Unhatched Battery (10.2)
+			210198, -- Depleted Battery (10.2)
 			-- Herbalism
 			--------------------------------------------------------------------
 			201287, -- Ancient Herbalist's Notes
@@ -328,6 +341,9 @@ addon.db = {
 			205430, -- Bartered Inscription Notes (10.1)
 			205354, -- Niffen Notebook of Inscription Knowledge (10.1)
 			205441, -- Bartered Inscription Journal (10.1)
+			210458, -- Winnie's Notes on Flora and Fauna (10.2)
+			210459, -- Grove Keeper's Pillar (10.2)
+			210460, -- Primalist Shadowbinding Rune (10.2)
 			-- Jewelcrafting
 			--------------------------------------------------------------------
 			193909, -- Ancient Gem Fragments
@@ -355,6 +371,9 @@ addon.db = {
 			205348, -- Niffen Notebook of Jewelcrafting Knowledge (10.1)
 			205424, -- Bartered Jewelcrafting Notes (10.1)
 			205435, -- Bartered Jewelcrafting Journal (10.1)
+			210200, -- Petrified Hope (10.2)
+			210201, -- Handful of Pebbles (10.2)
+			210202, -- Coalesced Dreamstone (10.2)
 			-- Leatherworking
 			--------------------------------------------------------------------
 			201286, -- Ancient Leatherworker's Diagrams
@@ -381,6 +400,9 @@ addon.db = {
 			205350, -- Niffen Notebook of Leatherworking Knowledge (10.1)
 			205426, -- Bartered Leatherworking Notes (10.1)
 			205437, -- Bartered Leatherworking Journal (10.1)
+			210208, -- Tuft of Dreamsaber Fur (10.2)
+			210211, -- Molted Faerie Dragon Scales (10.2)
+			210215, -- Dreamtalon Claw (10.2)
 			-- Mining
 			--------------------------------------------------------------------
 			201288, -- Ancient Miner's Notes
@@ -453,6 +475,9 @@ addon.db = {
 			205431, -- Bartered Tailoring Notes (10.1)
 			205355, -- Niffen Notebook of Tailoring Knowledge (10.1)
 			205442, -- Bartered Tailoring Journal (10.1)
+			210461, -- Exceedingly Soft Wildercloth (10.2)
+			210462, -- Plush Pillow (10.2)
+			210463, -- Snuggle Buddy (10.2)
 		},
 	},
 	drakewatcher = {
