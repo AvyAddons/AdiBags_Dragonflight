@@ -1283,5 +1283,16 @@ addon.db = {
 			207026, -- Dreamsurge Coalescence
 			208153, -- Dreamsurge Chrysalis
 		}
+	},
+	superbloom = {
+		name = "Move |cff67CF9ESuperbloom|r",
+		desc = "Move |cff67CF9ESuperbloom|r items into their own category",
+		category = "|cff67CF9ESuperbloom|r",
+		order = 3500,
+		items = {
+			208066, -- Small Dreamseed
+			208067, -- Plump Dreamseed
+			208047, -- Gigantic Dreamseed
+		}
 	}
 }
