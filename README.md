@@ -15,6 +15,8 @@ Currently, this addon supports:
 - Primordial Stones
 - Artisan Curios
 - Loamm
+- Dreamsurges
+- Superbloom
 - Shadowflame/Dreaming Crests
 - Lizi's Reins (Maruuk Centaur Mount)
 - Temperamental Skyclaw (Azure Span Gnoll Mount)
