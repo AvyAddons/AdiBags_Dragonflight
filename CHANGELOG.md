@@ -3,6 +3,11 @@ All notable changes to this project will be documented in this file. Be aware th
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.8.0] 2023-11-11
+### Added
+- Superblooms!
+- New Profession Knowledge items
+
 ## [2.7.0] 2023-11-08
 ### Added
 - New Reputation items
