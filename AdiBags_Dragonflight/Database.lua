@@ -1075,6 +1075,9 @@ addon.db = {
 			198505, --Contract: Artisan's Consortium
 			198503, --Contract: Artisan's Consortium
 			198504, --Contract: Artisan's Consortium
+			210244, -- Contract: Dream Wardens
+			210245, -- Contract: Dream Wardens
+			210246, -- Contract: Dream Wardens
 		}
 	},
 	treasure_sack = {
