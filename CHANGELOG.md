@@ -3,6 +3,10 @@ All notable changes to this project will be documented in this file. Be aware th
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.9.3] 2024-01-31
+### Removed
+- Removed item with ID i202104 (Weighted Sac of Swog Treasures). It was never in the game.
+
 ## [2.9.2] 2024-01-19
 ### Added
 - Added missing Greater Encapsulated Destiny
