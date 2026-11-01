@@ -2,7 +2,7 @@
 
 	The MIT License (MIT)
 
-	Copyright (c) 2022 Lucas Vienna (Avyiel) <dev@lucasvienna.dev>
+	Copyright (c) 2022 Lucas Vienna (Avyiel) <addons@avyiel.dev>
 	Copyright (c) 2021 Lars Norberg
 
 	Permission is hereby granted, free of charge, to any person obtaining a copy
